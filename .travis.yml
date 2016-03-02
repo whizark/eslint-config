@@ -1,0 +1,46 @@
+sudo: false
+
+language: node_js
+
+node_js:
+    - 4
+    - 5
+
+matrix:
+    fast_finish: true
+
+cache:
+    directories:
+        - node_modules
+
+before_install:
+    - npm config set spin false
+    - npm config set progress false
+    - npm install -g npm
+
+install:
+    - npm install
+
+script:
+    - npm run-script test
+
+deploy:
+    - provider: npm
+      api_key:
+          secure: mOYUa22zmZ3fjCjBA8gRWHETFcYdrvx23FpGmmcHEQZqTGRzBLmJNXh2OTqmstquP5JM/Uhk9i3+nOvirXScpPVNrbmfpVnBQ63Jz6XWsXQUf1TqRZC+sbA2shKFXJMTtMVvL2s3nsf2g65D3p3ogualJ3P8GkPf6E7qZz+c04IRRSicBVrs2Qpls3JxSuUreUipjTAkje9hUsQDty2yPoDQHevRgHj2NpOQnjpBC25Rwx1wb0uojeBoMjdPKDkkNiiF+ubbPmxd96OJDktvu0zHlRhHv5h+imu783jiOhdvZoIm6qwOsUlBb6IFPtXSa0O1ugdlQPMCg+tYQen97debNxR7HBGKbhFOFqDYiAFStcnZtEGz4EEqo3rTHnH2nLsmIQbU+BEaZMzm9BlHlfw2q7XqIXiExt5xcpmBAdO2vXVKRhR5xq/8kLevsFTca7Df70U/9N/cqFG5HdHdcbshoCjy4njSVrbiVREEl37nSwNrOFDgpNxrybU0ZCEawCx4sfLRZRNb3hXj8h84g0KSKSkfgz0/YCmykQVQk3uorQonkkH3Meeze2CpfwkvPPJX33e1388uY1Q06b2xcoZbLioGOqzfzTAHZZJ4TBw40i3LpcT6wbRfP9CkuVlvfy9M+193fDZ3xky7JOQT0ZWJo298vKlsoAGOQYUABRo=
+      on:
+          node: 5
+          repo: whizark/eslint-config
+          branch: master
+          tags: true
+
+notifications:
+    email: false
+
+    slack:
+        rooms:
+            - secure: h1bWaYV0tqspgkQAbEFH8gYkc91t2EmtljHDJohKuOOvWyw700VAMSkr+yin34rGtouAxBfT2PHCOQuzmiBTjBmnOO5eQgx4UrGBVhiE7AgYwO7DhTMBmV5EyMICPDPkTkCiVAupp+4N5IbRtVBCybYPwr8pUbKVAaBp+jTSV6pdy+XlhJ0OuSWQQi4yWLC/38Yx9kuK5acaVizJkeA5doshtYawiqYx9khFayODBn7zIBZ4Dm7uxNO79bBDcoLliGJIiQtC/HzVGh0BF0Vysz2ZVfzsWVtsIbJXG/4dczs/8aXM2XpVm1NX2AzxBjFTOhQeEyLgVhraKAPiUQ0W3Cx091wOBu/8d8WSXv8n6ZgQTytySLZIWQhqQbCOOYJ6zpeE1Ad8ohgArXFPxCa0zyXaytmvbGLf8hoe6Ts7+hVD/nvrdsU9+VD12JF5H9PDg1JDLhx9x3L8WsFbDgApeGL8JXTGDJRTyrcpQnAQ/yY6Hv19cny7S34gBBVdxezi+pkZ7b/iy3b/2A/HC2MIAZqyyLenp3msVhwzsPIvOw8tGpaA/fW/QCj0s1mYfc8HvsZOP3YUBlcnR1aVX5K7OuAH4IaS4/BQXdsv/g2zAV62SaAtWkGzFcaML3e5EiyMEOpZ5JeZkbcgZwwciiYn8RTkGntz459gRLE6hyd5Iz8=
+        on_pull_requests: false
+        on_start: never
+        on_success: never
+        on_failure: change
