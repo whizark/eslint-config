@@ -40,8 +40,7 @@ module.exports = {
     },
     "plugins"      : [],
     "globals"      : {},
-    "extends"      : [
-    ],
+    "extends"      : [],
     "rules"        : {
         "comma-dangle"                 : [
             2,
