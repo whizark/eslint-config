@@ -18,6 +18,9 @@
         "name": "Whizark",
         "url" : "http://whizark.com"
     },
+    "files"           : [
+        "./index.js"
+    ],
     "main"            : "./index.js",
     "repository"      : {
         "type": "git",
