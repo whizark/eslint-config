@@ -25,6 +25,7 @@ script:
     - npm install . -g && npm uninstall . -g
     - mkdir -p "/tmp/$TRAVIS_REPO_SLUG" && cd "/tmp/$TRAVIS_REPO_SLUG" && npm init -y
     - npm install "$TRAVIS_BUILD_DIR" && npm uninstall "$TRAVIS_BUILD_DIR"
+    - node -e "const config = require('@$TRAVIS_REPO_SLUG');"
     - cd "$TRAVIS_BUILD_DIR"
     - npm test
 
