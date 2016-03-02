@@ -22,6 +22,7 @@ install:
     - npm install
 
 script:
+    - npm install . -g && npm uninstall . -g
     - npm test
 
 deploy:
