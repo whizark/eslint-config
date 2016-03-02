@@ -26,6 +26,7 @@ script:
 
 deploy:
     - provider: npm
+      email: npm@whizark.com
       api_key:
           secure: mOYUa22zmZ3fjCjBA8gRWHETFcYdrvx23FpGmmcHEQZqTGRzBLmJNXh2OTqmstquP5JM/Uhk9i3+nOvirXScpPVNrbmfpVnBQ63Jz6XWsXQUf1TqRZC+sbA2shKFXJMTtMVvL2s3nsf2g65D3p3ogualJ3P8GkPf6E7qZz+c04IRRSicBVrs2Qpls3JxSuUreUipjTAkje9hUsQDty2yPoDQHevRgHj2NpOQnjpBC25Rwx1wb0uojeBoMjdPKDkkNiiF+ubbPmxd96OJDktvu0zHlRhHv5h+imu783jiOhdvZoIm6qwOsUlBb6IFPtXSa0O1ugdlQPMCg+tYQen97debNxR7HBGKbhFOFqDYiAFStcnZtEGz4EEqo3rTHnH2nLsmIQbU+BEaZMzm9BlHlfw2q7XqIXiExt5xcpmBAdO2vXVKRhR5xq/8kLevsFTca7Df70U/9N/cqFG5HdHdcbshoCjy4njSVrbiVREEl37nSwNrOFDgpNxrybU0ZCEawCx4sfLRZRNb3hXj8h84g0KSKSkfgz0/YCmykQVQk3uorQonkkH3Meeze2CpfwkvPPJX33e1388uY1Q06b2xcoZbLioGOqzfzTAHZZJ4TBw40i3LpcT6wbRfP9CkuVlvfy9M+193fDZ3xky7JOQT0ZWJo298vKlsoAGOQYUABRo=
       on:
