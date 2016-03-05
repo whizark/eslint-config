@@ -40,9 +40,7 @@ module.exports = {
     },
     "plugins"      : [],
     "globals"      : {},
-    "extends"      : [
-        "./node_modules/coding-standard/.eslintrc"
-    ],
+    "extends"      : [],
     "rules"        : {
         "comma-dangle"                 : [
             2,
