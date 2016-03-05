@@ -30,9 +30,9 @@
         "test": "node test/index.js"
     },
     "devDependencies" : {
-        "eslint": "^2.2.0"
+        "eslint": "^2.3.0"
     },
     "peerDependencies": {
-        "eslint": "~2.2.0"
+        "eslint": "~2.3.0"
     }
 }

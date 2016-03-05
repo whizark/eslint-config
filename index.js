@@ -2,9 +2,9 @@
 
 module.exports = {
     "parserOptions": {
-        "ecmaVersion" : 6,
-        "sourceType"  : "module",
-        "ecmaFeatures": {
+        "ecmaVersion"  : 6,
+        "sourceType"   : "module",
+        "parserOptions": {
             "globalReturn"                : false,
             "impliedStrict"               : false,
             "jsx"                         : false,
@@ -40,7 +40,9 @@ module.exports = {
     },
     "plugins"      : [],
     "globals"      : {},
-    "extends"      : [],
+    "extends"      : [
+        "./node_modules/coding-standard/.eslintrc"
+    ],
     "rules"        : {
         "comma-dangle"                 : [
             2,
@@ -74,8 +76,21 @@ module.exports = {
             2,
             "both"
         ],
-        "no-invalid-regexp"            : 2,
-        "no-irregular-whitespace"      : 2,
+        "no-invalid-regexp"            : [
+            2,
+            {
+                "allowConstructorFlags": [
+                    "u",
+                    "y"
+                ]
+            }
+        ],
+        "no-irregular-whitespace"      : [
+            2,
+            {
+                "skipComments": false
+            }
+        ],
         "no-negated-in-lhs"            : 2,
         "no-obj-calls"                 : 2,
         "no-regex-spaces"              : 2,
@@ -117,7 +132,9 @@ module.exports = {
         "block-scoped-var"             : 2,
         "complexity"                   : [
             2,
-            20
+            {
+                "maximum": 20
+            }
         ],
         "consistent-return"            : 1,
         "curly"                        : [
@@ -287,6 +304,9 @@ module.exports = {
         "no-catch-shadow"              : 2,
         "no-delete-var"                : 2,
         "no-label-var"                 : 2,
+        "no-restricted-globals"        : [
+            2
+        ],
         "no-shadow"                    : [
             2,
             {
@@ -477,7 +497,9 @@ module.exports = {
         ],
         "max-depth"                    : [
             1,
-            4
+            {
+                "maximum": 4
+            }
         ],
         "max-len"                      : [
             1,
@@ -493,15 +515,21 @@ module.exports = {
         ],
         "max-nested-callbacks"         : [
             1,
-            10
+            {
+                "maximum": 10
+            }
         ],
         "max-params"                   : [
             0,
-            3
+            {
+                "maximum": 3
+            }
         ],
         "max-statements"               : [
             0,
-            10,
+            {
+                "maximum": 10
+            },
             {
                 "ignoreTopLevelFunctions": true
             }
@@ -531,6 +559,7 @@ module.exports = {
             2,
             "always"
         ],
+        "newline-before-return"        : 2,
         "newline-per-chained-call"     : [
             2,
             {
@@ -627,7 +656,11 @@ module.exports = {
         ],
         "padded-blocks"                : [
             2,
-            "never"
+            {
+                "blocks"  : "never",
+                "switches": "never",
+                "classes" : "never"
+            }
         ],
         "quote-props"                  : [
             2,
