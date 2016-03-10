@@ -233,7 +233,6 @@ module.exports = {
                 "props": false
             }
         ],
-        "no-process-env"               : "error",
         "no-proto"                     : "error",
         "no-redeclare"                 : [
             "error",
@@ -358,10 +357,8 @@ module.exports = {
         ],
         "no-new-require"               : "error",
         "no-path-concat"               : "error",
+        "no-process-env"               : "error",
         "no-process-exit"              : "error",
-        "no-restricted-imports"        : [
-            "error"
-        ],
         "no-restricted-modules"        : "error",
         "no-sync"                      : "error",
         "block-spacing"                : [
@@ -795,6 +792,9 @@ module.exports = {
         "no-const-assign"              : "error",
         "no-dupe-class-members"        : "error",
         "no-new-symbol"                : "error",
+        "no-restricted-imports"        : [
+            "error"
+        ],
         "no-this-before-super"         : "error",
         "no-useless-constructor"       : "error",
         "no-var"                       : "error",
