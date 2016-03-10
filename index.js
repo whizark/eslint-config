@@ -788,7 +788,12 @@ module.exports = {
             }
         ],
         "no-class-assign"              : "error",
-        "no-confusing-arrow"           : "error",
+        "no-confusing-arrow"           : [
+            "error",
+            {
+                "allowParens": false
+            }
+        ],
         "no-const-assign"              : "error",
         "no-dupe-class-members"        : "error",
         "no-new-symbol"                : "error",
