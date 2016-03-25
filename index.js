@@ -745,8 +745,9 @@ module.exports = {
         "space-unary-ops"              : [
             "error",
             {
-                "words"   : true,
-                "nonwords": false
+                "words"    : true,
+                "nonwords" : false,
+                "overrides": {}
             }
         ],
         "spaced-comment"               : [
