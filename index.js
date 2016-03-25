@@ -529,6 +529,12 @@ module.exports = {
                 "ignoreTopLevelFunctions": true
             }
         ],
+        "max-statements-per-line"      : [
+            "error",
+            {
+                "max": 1
+            }
+        ],
         "new-cap"                      : [
             "error",
             {
