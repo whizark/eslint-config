@@ -826,7 +826,12 @@ module.exports = {
             }
         ],
         "prefer-arrow-callback"        : "error",
-        "prefer-const"                 : "warn",
+        "prefer-const"                 : [
+            "warn",
+            {
+                "destructuring": "any"
+            }
+        ],
         "prefer-reflect"               : [
             "off",
             {
