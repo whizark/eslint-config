@@ -131,7 +131,7 @@ module.exports = {
         "complexity"                   : [
             "error",
             {
-                "maximum": 20
+                "max": 20
             }
         ],
         "consistent-return"            : "warn",
@@ -495,7 +495,7 @@ module.exports = {
         "max-depth"                    : [
             "warn",
             {
-                "maximum": 4
+                "max": 4
             }
         ],
         "max-len"                      : [
@@ -513,19 +513,19 @@ module.exports = {
         "max-nested-callbacks"         : [
             "warn",
             {
-                "maximum": 10
+                "max": 10
             }
         ],
         "max-params"                   : [
             "off",
             {
-                "maximum": 3
+                "max": 3
             }
         ],
         "max-statements"               : [
             "off",
             {
-                "maximum": 10
+                "max": 10
             },
             {
                 "ignoreTopLevelFunctions": true
