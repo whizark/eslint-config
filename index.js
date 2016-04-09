@@ -440,7 +440,8 @@ module.exports = {
             "off",
             "^[a-z]+([A-Z][a-z]+)*$",
             {
-                "properties": false
+                "properties"      : false,
+                "onlyDeclarations": false
             }
         ],
         "indent"                       : [
