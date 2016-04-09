@@ -182,7 +182,12 @@ module.exports = {
         ],
         "no-extra-bind"                : "error",
         "no-extra-label"               : "error",
-        "no-fallthrough"               : "error",
+        "no-fallthrough"               : [
+            "error",
+            {
+                "commentPattern": "break[\\s\\w]+omitted"
+            }
+        ],
         "no-floating-decimal"          : "error",
         "no-implicit-coercion"         : [
             "off",
