@@ -840,7 +840,12 @@ module.exports = {
                 "ignoreConstructors": false
             }
         ],
-        "prefer-arrow-callback"        : "error",
+        "prefer-arrow-callback"        : [
+            "error",
+            {
+                "allowNamedFunctions": false
+            }
+        ],
         "prefer-const"                 : [
             "warn",
             {
