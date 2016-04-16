@@ -70,7 +70,8 @@ module.exports = {
             "error",
             "all",
             {
-                "conditionalAssign": false
+                "conditionalAssign"      : false,
+                "nestedBinaryExpressions": false
             }
         ],
         "no-extra-semi"                : "error",
