@@ -689,7 +689,10 @@ module.exports = {
         "quotes"                       : [
             "error",
             "single",
-            "avoid-escape"
+            {
+                "avoidEscape"          : true,
+                "allowTemplateLiterals": true
+            }
         ],
         "require-jsdoc"                : [
             "error",
