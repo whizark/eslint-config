@@ -723,19 +723,6 @@ module.exports = {
                 "after" : true
             }
         ],
-        "sort-imports"                 : [
-            "warn",
-            {
-                "ignoreCase"           : false,
-                "ignoreMemberSort"     : false,
-                "memberSyntaxSortOrder": [
-                    "none",
-                    "all",
-                    "multiple",
-                    "single"
-                ]
-            }
-        ],
         "sort-vars"                    : [
             "warn",
             {
@@ -867,6 +854,19 @@ module.exports = {
         "prefer-spread"                : "error",
         "prefer-template"              : "warn",
         "require-yield"                : "error",
+        "sort-imports"                 : [
+            "warn",
+            {
+                "ignoreCase"           : false,
+                "ignoreMemberSort"     : false,
+                "memberSyntaxSortOrder": [
+                    "none",
+                    "all",
+                    "multiple",
+                    "single"
+                ]
+            }
+        ],
         "template-curly-spacing"       : [
             "error",
             "never"
