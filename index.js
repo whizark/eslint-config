@@ -835,7 +835,8 @@ module.exports = {
         "prefer-arrow-callback"        : [
             "error",
             {
-                "allowNamedFunctions": false
+                "allowNamedFunctions": false,
+                "allowUnboundThis"   : true
             }
         ],
         "prefer-const"                 : [
