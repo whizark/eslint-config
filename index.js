@@ -145,7 +145,12 @@ module.exports = {
             "error",
             "all"
         ],
-        "default-case"                 : "error",
+        "default-case"                 : [
+            "error",
+            {
+                "commentPattern": "^no default$"
+            }
+        ],
         "dot-location"                 : [
             "error",
             "property"
