@@ -111,7 +111,7 @@ module.exports = {
                 "requireReturn"           : true,
                 "requireParamDescription" : true,
                 "requireReturnDescription": true,
-                "matchDescription"        : "^[A-Z].*[.]$",
+                "matchDescription"        : "^[A-Z][\\s\\S]*[.]$",
                 "requireReturnType"       : true,
                 "preferType"              : {
                     "bool"   : "boolean",
