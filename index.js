@@ -499,13 +499,13 @@ module.exports = {
             {
                 "beforeBlockComment": true,
                 "afterBlockComment" : false,
-                "beforeLineComment" : false,
+                "beforeLineComment" : true,
                 "afterLineComment"  : false,
-                "allowBlockStart"   : false,
+                "allowBlockStart"   : true,
                 "allowBlockEnd"     : false,
-                "allowObjectStart"  : false,
+                "allowObjectStart"  : true,
                 "allowObjectEnd"    : false,
-                "allowArrayStart"   : false,
+                "allowArrayStart"   : true,
                 "allowArrayEnd"     : false
             }
         ],
