@@ -700,7 +700,7 @@ module.exports = {
             }
         ],
         "require-jsdoc"                : [
-            "error",
+            "warn",
             {
                 "require": {
                     "FunctionDeclaration": true,
