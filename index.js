@@ -101,6 +101,7 @@ module.exports = {
         "no-sparse-arrays"             : "error",
         "no-unexpected-multiline"      : "error",
         "no-unreachable"               : "error",
+        "no-unsafe-finally"            : "error",
         "use-isnan"                    : "error",
         "valid-jsdoc"                  : [
             "error",
