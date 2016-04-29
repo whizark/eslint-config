@@ -1,6 +1,7 @@
 'use strict';
 
 module.exports = {
+    "extends"      : [],
     "parserOptions": {
         "ecmaVersion"  : 6,
         "sourceType"   : "module",
@@ -40,7 +41,6 @@ module.exports = {
     },
     "plugins"      : [],
     "globals"      : {},
-    "extends"      : [],
     "rules"        : {
         "comma-dangle"                 : [
             "error",
