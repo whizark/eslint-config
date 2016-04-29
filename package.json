@@ -19,7 +19,8 @@
         "url" : "http://whizark.com"
     },
     "files"           : [
-        "./index.js"
+        "./index.js",
+        "./config"
     ],
     "main"            : "./index.js",
     "repository"      : {
