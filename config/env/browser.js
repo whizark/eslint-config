@@ -3,7 +3,8 @@
 module.exports = {
     "extends": [
         "./default.js",
-        "../version/es5.js"
+        "../version/es5.js",
+        "../module/script.js"
     ],
     "env"    : {
         "browser": true
