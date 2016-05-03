@@ -1,12 +1,7 @@
 'use strict';
 
 module.exports = {
-    "extends": [
-        "./default.js",
-        "../version/es5.js",
-        "../module/script.js"
-    ],
-    "env"    : {
+    "env": {
         "browser": true
     }
 };
