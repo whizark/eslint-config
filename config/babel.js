@@ -2,7 +2,9 @@
 
 module.exports = {
     "extends": [
-        "./env/babel.js",
+        "./env/default.js",
+        "./version/es2015.js",
+        "./module/ecmascript.js",
         "./rules/strict.js"
     ]
 };
