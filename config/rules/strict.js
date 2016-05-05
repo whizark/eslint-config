@@ -609,6 +609,12 @@ module.exports = {
                 "arraysInObjects" : false
             }
         ],
+        "object-property-newline"      : [
+            "off",
+            {
+                "allowMultiplePropertiesPerLine": false
+            }
+        ],
         "one-var"                      : [
             "error",
             {
