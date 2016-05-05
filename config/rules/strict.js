@@ -807,6 +807,7 @@ module.exports = {
             "error",
             "always",
             {
+                "avoidQuotes"       : true,
                 "ignoreConstructors": false
             }
         ],
