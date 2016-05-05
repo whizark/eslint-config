@@ -52,7 +52,10 @@ module.exports = {
         "no-irregular-whitespace"      : [
             "error",
             {
-                "skipComments": false
+                "skipStrings"  : true,
+                "skipComments" : false,
+                "skipRegExps"  : false,
+                "skipTemplates": false
             }
         ],
         "no-negated-in-lhs"            : "error",
