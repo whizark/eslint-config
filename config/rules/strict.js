@@ -373,7 +373,14 @@ module.exports = {
         ],
         "comma-style"                  : [
             "error",
-            "last"
+            "last",
+            {
+                "exceptions": {
+                    "ArrayExpression"    : false,
+                    "ObjectExpression"   : false,
+                    "VariableDeclaration": false
+                }
+            }
         ],
         "computed-property-spacing"    : [
             "error",
