@@ -821,7 +821,8 @@ module.exports = {
         "prefer-const"                 : [
             "warn",
             {
-                "destructuring": "any"
+                "destructuring"         : "any",
+                "ignoreReadBeforeAssign": false
             }
         ],
         "prefer-reflect"               : [
