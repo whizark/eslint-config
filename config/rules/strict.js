@@ -31,6 +31,7 @@ module.exports = {
             "all",
             {
                 "conditionalAssign"      : false,
+                "returnAssign"           : false,
                 "nestedBinaryExpressions": false
             }
         ],
