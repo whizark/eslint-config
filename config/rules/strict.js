@@ -827,7 +827,7 @@ module.exports = {
             }
         ],
         "prefer-reflect"               : [
-            "off",
+            "error",
             {
                 "exceptions": []
             }
