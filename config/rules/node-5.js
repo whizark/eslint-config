@@ -2,6 +2,7 @@
 
 module.exports = {
     "rules": {
-        "prefer-rest-params": "off"
+        "prefer-rest-params": "off",
+        "prefer-reflect"    : "off"
     }
 };
