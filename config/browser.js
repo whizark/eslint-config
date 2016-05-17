@@ -6,6 +6,7 @@ module.exports = {
         "./env/browser.js",
         "./version/es5.js",
         "./module/script.js",
-        "./rules/strict.js"
+        "./rules/strict.js",
+        "./rules/es5.js"
     ]
 };
