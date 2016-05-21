@@ -316,7 +316,7 @@ module.exports = {
             }
         ],
         "no-undef-init"                : "error",
-        "no-undefined"                 : "off",
+        "no-undefined"                 : "error",
         "no-unused-vars"               : [
             "error",
             {
