@@ -11,7 +11,12 @@ module.exports = {
             "except-parens"
         ],
         "no-console"                   : "error",
-        "no-constant-condition"        : "warn",
+        "no-constant-condition"        : [
+            "warn",
+            {
+                "checkLoops": true
+            }
+        ],
         "no-control-regex"             : "error",
         "no-debugger"                  : "error",
         "no-dupe-args"                 : "error",
