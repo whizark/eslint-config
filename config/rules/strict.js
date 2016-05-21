@@ -110,7 +110,12 @@ module.exports = {
                 "max": 20
             }
         ],
-        "consistent-return"            : "warn",
+        "consistent-return"            : [
+            "warn",
+            {
+                "treatUndefinedAsUnspecified": false
+            }
+        ],
         "curly"                        : [
             "error",
             "all"
