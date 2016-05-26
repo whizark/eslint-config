@@ -822,6 +822,14 @@ module.exports = {
         "no-this-before-super"         : "error",
         "no-useless-computed-key"      : "error",
         "no-useless-constructor"       : "error",
+        "no-useless-rename"            : [
+            "error",
+            {
+                "ignoreImport"       : false,
+                "ignoreExport"       : false,
+                "ignoreDestructuring": false
+            }
+        ],
         "no-var"                       : "error",
         "object-shorthand"             : [
             "error",
