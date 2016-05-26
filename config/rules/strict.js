@@ -772,6 +772,10 @@ module.exports = {
                 }
             }
         ],
+        "unicode-bom"                  : [
+            "error",
+            "never"
+        ],
         "wrap-regex"                   : "off",
         "arrow-body-style"             : [
             "error",
