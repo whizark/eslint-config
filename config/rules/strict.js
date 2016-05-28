@@ -289,10 +289,7 @@ module.exports = {
         ],
         "init-declarations"            : [
             "off",
-            "always",
-            {
-                "ignoreForLoopInit": true
-            }
+            "always"
         ],
         "no-catch-shadow"              : "error",
         "no-delete-var"                : "error",
