@@ -85,13 +85,14 @@ module.exports = {
                 "matchDescription"        : "^[A-Z][\\s\\S]*[.]$",
                 "requireReturnType"       : true,
                 "preferType"              : {
-                    "bool"   : "boolean",
-                    "Bool"   : "boolean",
-                    "Boolean": "boolean",
-                    "Number" : "number",
-                    "String" : "string",
-                    "array"  : "Array",
-                    "object" : "Object"
+                    "bool"    : "boolean",
+                    "Bool"    : "boolean",
+                    "Boolean" : "boolean",
+                    "Number"  : "number",
+                    "String"  : "string",
+                    "array"   : "Array",
+                    "object"  : "Object",
+                    "Function": "function"
                 }
             }
         ],
