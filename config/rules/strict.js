@@ -400,7 +400,7 @@ module.exports = {
             "never"
         ],
         "consistent-this"              : [
-            "error",
+            "warn",
             "that"
         ],
         "eol-last"                     : [
