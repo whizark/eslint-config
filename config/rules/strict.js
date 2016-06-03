@@ -861,6 +861,10 @@ module.exports = {
         "prefer-spread"                : "error",
         "prefer-template"              : "warn",
         "require-yield"                : "error",
+        "rest-spread-spacing"          : [
+            "error",
+            "never"
+        ],
         "sort-imports"                 : [
             "warn",
             {
