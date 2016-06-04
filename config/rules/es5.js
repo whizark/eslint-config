@@ -17,6 +17,7 @@ module.exports = {
         "no-this-before-super"   : "off",
         "no-useless-computed-key": "off",
         "no-useless-constructor" : "off",
+        "no-useless-rename"      : "off",
         "no-var"                 : "off",
         "object-shorthand"       : "off",
         "prefer-arrow-callback"  : "off",
@@ -26,6 +27,7 @@ module.exports = {
         "prefer-spread"          : "off",
         "prefer-template"        : "off",
         "require-yield"          : "off",
+        "rest-spread-spacing"    : "off",
         "sort-imports"           : "off",
         "template-curly-spacing" : "off",
         "yield-star-spacing"     : "off"
