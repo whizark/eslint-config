@@ -582,6 +582,12 @@ module.exports = {
         "no-continue"                  : "off",
         "no-inline-comments"           : "error",
         "no-lonely-if"                 : "error",
+        "no-mixed-operators"           : [
+            "error",
+            {
+                "allowSamePrecedence": true
+            }
+        ],
         "no-mixed-spaces-and-tabs"     : "error",
         "no-multiple-empty-lines"      : [
             "error",
