@@ -796,7 +796,10 @@ module.exports = {
         "wrap-regex"                   : "off",
         "arrow-body-style"             : [
             "error",
-            "as-needed"
+            "as-needed",
+            {
+                "requireReturnForObjectLiteral": false
+            }
         ],
         "arrow-parens"                 : [
             "error",
