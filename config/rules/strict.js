@@ -140,7 +140,8 @@ module.exports = {
             }
         ],
         "eqeqeq"                       : [
-            "error"
+            "error",
+            "always"
         ],
         "guard-for-in"                 : "error",
         "no-alert"                     : "error",
