@@ -512,6 +512,14 @@ module.exports = {
                 "ignorePattern"         : ""
             }
         ],
+        "max-lines"                    : [
+            "warn",
+            {
+                "max"           : 300,
+                "skipBlankLines": true,
+                "skipComment"   : true
+            }
+        ],
         "max-nested-callbacks"         : [
             "warn",
             {
