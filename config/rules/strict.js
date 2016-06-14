@@ -518,7 +518,7 @@ module.exports = {
             {
                 "max"           : 300,
                 "skipBlankLines": true,
-                "skipComment"   : true
+                "skipComments"  : true
             }
         ],
         "max-nested-callbacks"         : [
