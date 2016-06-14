@@ -6,5 +6,5 @@ module.exports = {
         "./version/es2015.js",
         "./module/ecmascript.js",
         "./rules/strict.js"
-    ].map(require.resolve)
+    ]
 };

@@ -8,5 +8,5 @@ module.exports = {
         "./module/node.js",
         "./rules/strict.js",
         "./rules/node-5.js"
-    ].map(require.resolve)
+    ]
 };
