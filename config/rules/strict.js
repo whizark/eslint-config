@@ -408,7 +408,10 @@ module.exports = {
             "error",
             "unix"
         ],
-        "func-names"                   : "error",
+        "func-names"                   : [
+            "error",
+            "always"
+        ],
         "func-style"                   : [
             "off",
             "declaration",
