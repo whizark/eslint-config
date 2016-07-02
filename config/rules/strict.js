@@ -448,7 +448,8 @@ module.exports = {
                     "var"  : 1,
                     "let"  : 1,
                     "const": 1
-                }
+                },
+                "outerIIFEBody"     : true
             }
         ],
         "jsx-quotes"                   : [
