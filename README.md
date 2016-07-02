@@ -3,7 +3,7 @@
 [![npm][npm-image]][npm-url]
 [![Build Status][travis-image]][travis-url]
 
-ESLint sharable configuration files.
+[ESLint](https://github.com/eslint/eslint) sharable configuration files.
 
 [npm-image]: https://img.shields.io/npm/v/@whizark/eslint-config.svg
 [npm-url]: https://www.npmjs.com/@whizark/eslint-config
