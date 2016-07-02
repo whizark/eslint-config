@@ -2,10 +2,6 @@
 
 module.exports = {
     "rules"   : {
-        "comma-dangle"                 : [
-            "error",
-            "never"
-        ],
         "no-cond-assign"               : [
             "error",
             "except-parens"
@@ -378,6 +374,10 @@ module.exports = {
             }
         ],
         "camelcase"                    : "error",
+        "comma-dangle"                 : [
+            "error",
+            "never"
+        ],
         "comma-spacing"                : [
             "error",
             {
