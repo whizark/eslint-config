@@ -666,7 +666,7 @@ module.exports = {
             }
         ],
         "object-property-newline"      : [
-            "off",
+            "warn",
             {
                 "allowMultiplePropertiesPerLine": false
             }
