@@ -645,7 +645,7 @@ module.exports = {
         ],
         "no-whitespace-before-property": "error",
         "object-curly-newline"         : [
-            "error",
+            "warn",
             {
                 "ObjectExpression": {
                     "multiline"    : true,
