@@ -465,9 +465,14 @@ module.exports = {
                     "mode"       : "strict"
                 },
                 "multiLine" : {
-                    "align"      : "colon",
                     "beforeColon": false,
                     "afterColon" : true,
+                    "mode"       : "strict"
+                },
+                "align"     : {
+                    "beforeColon": false,
+                    "afterColon" : true,
+                    "on"         : "colon",
                     "mode"       : "strict"
                 }
             }
