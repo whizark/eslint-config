@@ -804,7 +804,8 @@ module.exports = {
                 },
                 "block": {
                     "markers"   : [],
-                    "exceptions": []
+                    "exceptions": [],
+                    "balanced"  : true
                 }
             }
         ],
