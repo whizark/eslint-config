@@ -466,8 +466,7 @@ module.exports = {
                 },
                 "multiLine" : {
                     "beforeColon": false,
-                    "afterColon" : true,
-                    "mode"       : "strict"
+                    "afterColon" : true
                 },
                 "align"     : {
                     "beforeColon": false,
