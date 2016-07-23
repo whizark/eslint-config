@@ -638,8 +638,9 @@ module.exports = {
         "no-underscore-dangle"         : [
             "error",
             {
-                "allow"         : [],
-                "allowAfterThis": false
+                "allow"          : [],
+                "allowAfterThis" : false,
+                "allowAfterSuper": false
             }
         ],
         "no-unneeded-ternary"          : [
