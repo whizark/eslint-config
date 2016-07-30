@@ -353,6 +353,7 @@ module.exports = {
         "no-process-exit"              : "error",
         "no-restricted-modules"        : "error",
         "no-sync"                      : "warn",
+        "no-tabs"                      : "error",
         "block-spacing"                : [
             "error",
             "always"
