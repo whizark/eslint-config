@@ -206,7 +206,7 @@ module.exports = {
             }
         ],
         "no-multi-str"                 : "error",
-        "no-native-reassign"           : [
+        "no-global-reassign"           : [
             "error",
             {
                 "exceptions": []
