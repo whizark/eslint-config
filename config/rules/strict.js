@@ -450,7 +450,8 @@ module.exports = {
                     "let"  : 1,
                     "const": 1
                 },
-                "outerIIFEBody"     : 1
+                "outerIIFEBody"     : 1,
+                "MemberExpression"  : 1
             }
         ],
         "jsx-quotes"                   : [
