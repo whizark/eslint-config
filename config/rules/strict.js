@@ -235,7 +235,12 @@ module.exports = {
             "except-parens"
         ],
         "no-script-url"                : "error",
-        "no-self-assign"               : "error",
+        "no-self-assign"               : [
+            "error",
+            {
+                "props": true
+            }
+        ],
         "no-self-compare"              : "error",
         "no-sequences"                 : "error",
         "no-throw-literal"             : "error",
