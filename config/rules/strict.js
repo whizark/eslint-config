@@ -139,6 +139,10 @@ module.exports = {
             "error",
             "always"
         ],
+        "func-call-spacing"            : [
+            "error",
+            "never"
+        ],
         "guard-for-in"                 : "error",
         "no-alert"                     : "error",
         "no-caller"                    : "error",
