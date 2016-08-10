@@ -821,6 +821,7 @@ module.exports = {
             "never"
         ],
         "wrap-regex"                   : "off",
+        "no-template-curly-in-string"  : "warn",
         "arrow-body-style"             : [
             "error",
             "as-needed",
