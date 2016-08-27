@@ -137,7 +137,10 @@ module.exports = {
         ],
         "eqeqeq"                       : [
             "error",
-            "always"
+            "always",
+            {
+                "null": "always"
+            }
         ],
         "func-call-spacing"            : [
             "error",
