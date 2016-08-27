@@ -576,7 +576,10 @@ module.exports = {
                 "max": 1
             }
         ],
-        "multiline-ternary"            : "off",
+        "multiline-ternary"            : [
+            "off",
+            "never"
+        ],
         "new-cap"                      : [
             "error",
             {
