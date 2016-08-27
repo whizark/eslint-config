@@ -213,7 +213,7 @@ module.exports = {
             }
         ],
         "no-multi-str"                 : "error",
-        "no-global-reassign"           : [
+        "no-global-assign"             : [
             "error",
             {
                 "exceptions": []
