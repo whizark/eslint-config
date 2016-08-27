@@ -64,6 +64,7 @@ module.exports = {
         "no-prototype-builtins"        : "error",
         "no-regex-spaces"              : "error",
         "no-sparse-arrays"             : "error",
+        "no-template-curly-in-string"  : "warn",
         "no-unexpected-multiline"      : "error",
         "no-unreachable"               : "error",
         "no-unsafe-finally"            : "error",
@@ -148,10 +149,6 @@ module.exports = {
                 "null": "always"
             }
         ],
-        "func-call-spacing"            : [
-            "error",
-            "never"
-        ],
         "guard-for-in"                 : "error",
         "no-alert"                     : "error",
         "no-caller"                    : "error",
@@ -182,6 +179,12 @@ module.exports = {
             }
         ],
         "no-floating-decimal"          : "error",
+        "no-global-assign"             : [
+            "error",
+            {
+                "exceptions": []
+            }
+        ],
         "no-implicit-coercion"         : [
             "off",
             {
@@ -219,17 +222,11 @@ module.exports = {
             }
         ],
         "no-multi-str"                 : "error",
-        "no-global-assign"             : [
-            "error",
-            {
-                "exceptions": []
-            }
-        ],
-        "no-new"                       : "error",
         "no-new-func"                  : "error",
         "no-new-wrappers"              : "error",
-        "no-octal"                     : "error",
+        "no-new"                       : "error",
         "no-octal-escape"              : "error",
+        "no-octal"                     : "error",
         "no-param-reassign"            : [
             "error",
             {
@@ -313,6 +310,7 @@ module.exports = {
         "no-restricted-globals"        : [
             "error"
         ],
+        "no-shadow-restricted-names"   : "error",
         "no-shadow"                    : [
             "error",
             {
@@ -321,14 +319,13 @@ module.exports = {
                 "allow"         : []
             }
         ],
-        "no-shadow-restricted-names"   : "error",
+        "no-undef-init"                : "error",
         "no-undef"                     : [
             "error",
             {
                 "typeof": true
             }
         ],
-        "no-undef-init"                : "error",
         "no-undefined"                 : "error",
         "no-unused-vars"               : [
             "error",
@@ -371,11 +368,6 @@ module.exports = {
         "no-process-exit"              : "error",
         "no-restricted-modules"        : "error",
         "no-sync"                      : "warn",
-        "no-tabs"                      : "error",
-        "block-spacing"                : [
-            "error",
-            "always"
-        ],
         "array-bracket-spacing"        : [
             "error",
             "never",
@@ -384,6 +376,10 @@ module.exports = {
                 "objectsInArrays": false,
                 "arraysInArrays" : false
             }
+        ],
+        "block-spacing"                : [
+            "error",
+            "always"
         ],
         "brace-style"                  : [
             "error",
@@ -426,6 +422,10 @@ module.exports = {
         "eol-last"                     : [
             "error",
             "unix"
+        ],
+        "func-call-spacing"            : [
+            "error",
+            "never"
         ],
         "func-names"                   : [
             "error",
@@ -561,6 +561,12 @@ module.exports = {
                 "max": 3
             }
         ],
+        "max-statements-per-line"      : [
+            "error",
+            {
+                "max": 1
+            }
+        ],
         "max-statements"               : [
             "off",
             {
@@ -568,12 +574,6 @@ module.exports = {
             },
             {
                 "ignoreTopLevelFunctions": true
-            }
-        ],
-        "max-statements-per-line"      : [
-            "error",
-            {
-                "max": 1
             }
         ],
         "multiline-ternary"            : [
@@ -650,6 +650,7 @@ module.exports = {
         "no-restricted-syntax"         : [
             "error"
         ],
+        "no-tabs"                      : "error",
         "no-ternary"                   : "off",
         "no-trailing-spaces"           : [
             "error",
@@ -699,6 +700,10 @@ module.exports = {
                 "allowMultiplePropertiesPerLine": false
             }
         ],
+        "one-var-declaration-per-line" : [
+            "error",
+            "always"
+        ],
         "one-var"                      : [
             "error",
             {
@@ -706,10 +711,6 @@ module.exports = {
                 "let"  : "never",
                 "const": "never"
             }
-        ],
-        "one-var-declaration-per-line" : [
-            "error",
-            "always"
         ],
         "operator-assignment"          : [
             "error",
@@ -760,18 +761,18 @@ module.exports = {
                 }
             }
         ],
-        "semi"                         : [
-            "error",
-            "always",
-            {
-                "omitLastInOneLineBlock": false
-            }
-        ],
         "semi-spacing"                 : [
             "error",
             {
                 "before": false,
                 "after" : true
+            }
+        ],
+        "semi"                         : [
+            "error",
+            "always",
+            {
+                "omitLastInOneLineBlock": false
             }
         ],
         "sort-keyw"                    : [
@@ -844,7 +845,6 @@ module.exports = {
             "never"
         ],
         "wrap-regex"                   : "off",
-        "no-template-curly-in-string"  : "warn",
         "arrow-body-style"             : [
             "error",
             "as-needed",
