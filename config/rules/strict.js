@@ -949,6 +949,7 @@ module.exports = {
                 ]
             }
         ],
+        "symbol-description"           : "error",
         "template-curly-spacing"       : [
             "error",
             "never"

@@ -30,6 +30,7 @@ module.exports = {
         "require-yield"              : "off",
         "rest-spread-spacing"        : "off",
         "sort-imports"               : "off",
+        "symbol-description"         : "off",
         "template-curly-spacing"     : "off",
         "yield-star-spacing"         : "off"
     }
