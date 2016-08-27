@@ -92,7 +92,12 @@ module.exports = {
                 }
             }
         ],
-        "valid-typeof"                 : "error",
+        "valid-typeof"                 : [
+            "error",
+            {
+                "requireStringLiterals": true
+            }
+        ],
         "accessor-pairs"               : [
             "error",
             {
