@@ -766,6 +766,14 @@ module.exports = {
                 "after" : true
             }
         ],
+        "sort-keyw"                    : [
+            "off",
+            "asc",
+            {
+                "caseSensitive": true,
+                "natural"      : false
+            }
+        ],
         "sort-vars"                    : [
             "warn",
             {
