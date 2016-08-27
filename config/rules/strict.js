@@ -650,7 +650,6 @@ module.exports = {
         "no-restricted-syntax"         : [
             "error"
         ],
-        "no-spaced-func"               : "error",
         "no-ternary"                   : "off",
         "no-trailing-spaces"           : [
             "error",
