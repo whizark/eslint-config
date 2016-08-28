@@ -3,6 +3,9 @@
 module.exports = {
     "rules": {
         "no-template-curly-in-string": "off",
+        "class-methods-use-this"     : "off",
+        "no-empty-pattern"           : "off",
+        "computed-property-spacing"  : "off",
         "arrow-body-style"           : "off",
         "arrow-parens"               : "off",
         "arrow-spacing"              : "off",
