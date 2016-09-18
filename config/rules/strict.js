@@ -524,6 +524,13 @@ module.exports = {
                 "allowArrayEnd"     : false
             }
         ],
+        "lines-around-directive"       : [
+            "error",
+            {
+                "before": "always",
+                "after" : "always"
+            }
+        ],
         "max-depth"                    : [
             "warn",
             {
