@@ -422,7 +422,7 @@ module.exports = {
         ],
         "eol-last"                     : [
             "error",
-            "unix"
+            "always"
         ],
         "func-call-spacing"            : [
             "error",
