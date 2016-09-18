@@ -940,6 +940,7 @@ module.exports = {
                 "ignoreReadBeforeAssign": false
             }
         ],
+        "prefer-numeric-literals"      : "error",
         "prefer-reflect"               : [
             "error",
             {
