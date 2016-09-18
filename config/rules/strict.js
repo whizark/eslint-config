@@ -108,7 +108,12 @@ module.exports = {
         ],
         "array-callback-return"        : "error",
         "block-scoped-var"             : "error",
-        "class-methods-use-this"       : "warn",
+        "class-methods-use-this"       : [
+            "warn",
+            {
+                "exceptions": []
+            }
+        ],
         "complexity"                   : [
             "error",
             {
