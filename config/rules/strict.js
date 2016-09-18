@@ -505,6 +505,13 @@ module.exports = {
                 "overrides": {}
             }
         ],
+        "line-comment-position"        : [
+            "error",
+            {
+                "position"            : "above",
+                "applyDefaultPatterns": false
+            }
+        ],
         "linebreak-style"              : [
             "error",
             "unix"
