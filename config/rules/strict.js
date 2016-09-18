@@ -367,6 +367,7 @@ module.exports = {
         "no-process-env"               : "error",
         "no-process-exit"              : "error",
         "no-restricted-modules"        : "error",
+        "no-restricted-properties"     : "error",
         "no-sync"                      : "warn",
         "array-bracket-spacing"        : [
             "error",
