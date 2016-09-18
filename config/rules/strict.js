@@ -562,7 +562,9 @@ module.exports = {
                 "ignoreComments"        : false,
                 "ignoreTrailingComments": false,
                 "ignoreUrls"            : false,
-                "ignorePattern"         : ""
+                "ignorePattern"         : "",
+                "ignoreStrings"         : false,
+                "ignoreTemplateLiterals": false
             }
         ],
         "max-lines"                    : [
