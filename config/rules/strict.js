@@ -111,7 +111,7 @@ module.exports = {
         "class-methods-use-this"       : [
             "error",
             {
-                "exceptions": []
+                "exceptMethods": []
             }
         ],
         "complexity"                   : [
