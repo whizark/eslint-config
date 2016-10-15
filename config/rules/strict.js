@@ -292,7 +292,10 @@ module.exports = {
         "vars-on-top"                  : "error",
         "wrap-iife"                    : [
             "error",
-            "outside"
+            "outside",
+            {
+                "functionPrototypeMethods": false
+            }
         ],
         "yoda"                         : [
             "error",
