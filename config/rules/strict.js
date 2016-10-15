@@ -400,7 +400,13 @@ module.exports = {
         "camelcase"                    : "error",
         "comma-dangle"                 : [
             "error",
-            "never"
+            {
+                "arrays"   : "always-multiline",
+                "objects"  : "always-multiline",
+                "imports"  : "always-multiline",
+                "exports"  : "always-multiline",
+                "functions": "always-multiline"
+            }
         ],
         "comma-spacing"                : [
             "error",

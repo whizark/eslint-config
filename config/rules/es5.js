@@ -5,6 +5,12 @@ module.exports = {
         "no-template-curly-in-string": "off",
         "class-methods-use-this"     : "off",
         "no-empty-pattern"           : "off",
+        "comma-dangle"               : [
+            "error",
+            {
+                "functions": "never"
+            }
+        ],
         "computed-property-spacing"  : "off",
         "arrow-body-style"           : "off",
         "arrow-parens"               : "off",
