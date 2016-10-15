@@ -840,8 +840,9 @@ module.exports = {
         "space-before-function-paren"  : [
             "error",
             {
-                "anonymous": "always",
-                "named"    : "never"
+                "anonymous" : "always",
+                "named"     : "never",
+                "asyncArrow": "always"
             }
         ],
         "space-in-parens"              : [
