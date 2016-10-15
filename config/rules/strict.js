@@ -440,6 +440,12 @@ module.exports = {
             "error",
             "always"
         ],
+        "func-name-matching"           : [
+            "error",
+            {
+                "includeCommonJSModuleExports": true
+            }
+        ],
         "func-style"                   : [
             "off",
             "declaration",
