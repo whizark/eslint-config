@@ -373,7 +373,7 @@ module.exports = {
         ],
         "no-new-require"               : "error",
         "no-path-concat"               : "error",
-        "no-process-env"               : "error",
+        "no-process-env"               : "warn",
         "no-process-exit"              : "error",
         "no-restricted-modules"        : "error",
         "no-sync"                      : "warn",
