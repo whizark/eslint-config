@@ -341,7 +341,7 @@ module.exports = {
             {
                 "vars"        : "all",
                 "args"        : "after-used",
-                "caughtErrors": "all"
+                "caughtErrors": "none"
             }
         ],
         "no-use-before-define"         : [
