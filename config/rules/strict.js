@@ -356,7 +356,8 @@ module.exports = {
             [
                 "callback",
                 "cb",
-                "next"
+                "next",
+                "done"
             ]
         ],
         "global-require"               : "error",
