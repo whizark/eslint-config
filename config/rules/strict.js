@@ -586,7 +586,8 @@ module.exports = {
                 "ignoreUrls"            : false,
                 "ignorePattern"         : "",
                 "ignoreStrings"         : false,
-                "ignoreTemplateLiterals": false
+                "ignoreTemplateLiterals": false,
+                "ignoreRegExpLiterals"  : false
             }
         ],
         "max-lines"                    : [
