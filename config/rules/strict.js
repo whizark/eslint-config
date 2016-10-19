@@ -339,9 +339,10 @@ module.exports = {
         "no-unused-vars"               : [
             "error",
             {
-                "vars"        : "all",
-                "args"        : "after-used",
-                "caughtErrors": "none"
+                "vars"             : "all",
+                "args"             : "after-used",
+                "argsIgnorePattern": "^(callback|cb|next|done|error|err|resolve|reject)$",
+                "caughtErrors"     : "none"
             }
         ],
         "no-use-before-define"         : [
