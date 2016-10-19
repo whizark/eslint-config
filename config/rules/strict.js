@@ -28,7 +28,7 @@ module.exports = {
         "no-ex-assign"                 : "error",
         "no-extra-boolean-cast"        : "error",
         "no-extra-parens"              : [
-            "error",
+            "warn",
             "all",
             {
                 "conditionalAssign"      : false,
