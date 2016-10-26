@@ -450,6 +450,7 @@ module.exports = {
         ],
         "func-name-matching"           : [
             "error",
+            "always",
             {
                 "includeCommonJSModuleExports": true
             }
