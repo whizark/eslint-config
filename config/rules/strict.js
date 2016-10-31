@@ -976,12 +976,6 @@ module.exports = {
             }
         ],
         "prefer-numeric-literals"      : "error",
-        "prefer-reflect"               : [
-            "error",
-            {
-                "exceptions": []
-            }
-        ],
         "prefer-rest-params"           : "error",
         "prefer-spread"                : "error",
         "prefer-template"              : "warn",

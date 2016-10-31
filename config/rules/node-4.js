@@ -12,7 +12,6 @@ module.exports = {
                 "functions": "never"
             }
         ],
-        "prefer-reflect"    : "off",
         "prefer-rest-params": "off",
         "prefer-spread"     : "off"
     }
