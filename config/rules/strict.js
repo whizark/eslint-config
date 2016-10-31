@@ -955,6 +955,7 @@ module.exports = {
                 "ignoreDestructuring": false
             }
         ],
+        "no-useless-return"            : "error",
         "no-var"                       : "error",
         "object-shorthand"             : [
             "error",
