@@ -501,6 +501,9 @@ module.exports = {
                 "FunctionExpression" : {
                     "parameters": "first",
                     "body"      : 1
+                },
+                "CallExpression"     : {
+                    "arguments": "first"
                 }
             }
         ],
