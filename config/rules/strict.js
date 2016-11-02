@@ -929,7 +929,7 @@ module.exports = {
         "no-confusing-arrow"           : [
             "error",
             {
-                "allowParens": false
+                "allowParens": true
             }
         ],
         "no-const-assign"              : "error",
