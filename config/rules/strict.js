@@ -582,15 +582,15 @@ module.exports = {
         "max-len"                      : [
             "warn",
             {
-                "code"                  : 80,
-                "comments"              : 80,
+                "code"                  : 120,
+                "comments"              : 120,
                 "tabWidth"              : 4,
                 "ignoreComments"        : false,
                 "ignoreTrailingComments": false,
-                "ignoreUrls"            : false,
+                "ignoreUrls"            : true,
                 "ignorePattern"         : "",
-                "ignoreStrings"         : false,
-                "ignoreTemplateLiterals": false,
+                "ignoreStrings"         : true,
+                "ignoreTemplateLiterals": true,
                 "ignoreRegExpLiterals"  : false
             }
         ],
