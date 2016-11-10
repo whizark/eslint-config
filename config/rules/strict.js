@@ -377,7 +377,13 @@ module.exports = {
         "no-path-concat"               : "error",
         "no-process-env"               : "warn",
         "no-process-exit"              : "error",
-        "no-restricted-modules"        : "error",
+        "no-restricted-modules"        : [
+            "error",
+            {
+                "paths"   : [],
+                "patterns": []
+            }
+        ],
         "no-sync"                      : "warn",
         "array-bracket-spacing"        : [
             "error",
@@ -943,7 +949,11 @@ module.exports = {
         ],
         "no-new-symbol"                : "error",
         "no-restricted-imports"        : [
-            "error"
+            "error",
+            {
+                "paths"   : [],
+                "patterns": []
+            }
         ],
         "no-this-before-super"         : "error",
         "no-useless-computed-key"      : "error",
