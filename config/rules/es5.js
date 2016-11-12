@@ -5,6 +5,7 @@ module.exports = {
         "no-template-curly-in-string": "off",
         "class-methods-use-this"     : "off",
         "no-empty-pattern"           : "off",
+        "no-return-await"            : "off",
         "comma-dangle"               : [
             "error",
             {

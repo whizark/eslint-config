@@ -2,7 +2,8 @@
 
 module.exports = {
     "rules": {
-        "comma-dangle": [
+        "no-return-await": "off",
+        "comma-dangle"   : [
             "error",
             {
                 "arrays"   : "always-multiline",

@@ -250,6 +250,7 @@ module.exports = {
             "error",
             "except-parens"
         ],
+        "no-return-await"              : "error",
         "no-script-url"                : "error",
         "no-self-assign"               : [
             "error",

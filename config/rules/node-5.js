@@ -2,6 +2,7 @@
 
 module.exports = {
     "rules": {
+        "no-return-await"   : "off",
         "comma-dangle"      : [
             "error",
             {
