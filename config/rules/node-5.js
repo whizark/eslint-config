@@ -13,6 +13,10 @@ module.exports = {
                 "functions": "never"
             }
         ],
+        "func-names"        : [
+            "error",
+            "always"
+        ],
         "prefer-rest-params": "off"
     }
 };

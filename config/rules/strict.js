@@ -453,7 +453,7 @@ module.exports = {
         ],
         "func-names"                   : [
             "error",
-            "always"
+            "as-needed"
         ],
         "func-name-matching"           : [
             "error",

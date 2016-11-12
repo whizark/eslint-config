@@ -16,6 +16,10 @@ module.exports = {
                 "functions": "never"
             }
         ],
+        "func-names"                 : [
+            "error",
+            "always"
+        ],
         "computed-property-spacing"  : "off",
         "arrow-body-style"           : "off",
         "arrow-parens"               : "off",
