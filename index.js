@@ -1,7 +1,3 @@
 'use strict';
 
-module.exports = {
-    "extends": [
-        "./config/default.js"
-    ]
-};
+module.exports = require('./config/default');
