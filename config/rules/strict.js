@@ -429,9 +429,16 @@ module.exports = {
             "last",
             {
                 "exceptions": {
-                    "ArrayExpression"    : false,
-                    "ObjectExpression"   : false,
-                    "VariableDeclaration": false
+                    "ArrayExpression"        : false,
+                    "ArrayPattern"           : false,
+                    "ArrowFunctionExpression": false,
+                    "CallExpression"         : false,
+                    "FunctionDeclaration"    : false,
+                    "FunctionExpression"     : false,
+                    "ImportDeclaration"      : false,
+                    "ObjectExpression"       : false,
+                    "ObjectPattern"          : false,
+                    "VariableDeclaration"    : false
                 }
             }
         ],
