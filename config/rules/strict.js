@@ -803,9 +803,9 @@ module.exports = {
         ],
         "quote-props"                  : [
             "error",
-            "consistent-as-needed",
+            "as-needed",
             {
-                "keywords"   : true,
+                "keywords"   : false,
                 "unnecessary": true,
                 "numbers"    : false
             }
