@@ -726,7 +726,7 @@ module.exports = {
             }
         ],
         "no-underscore-dangle"         : [
-            "error",
+            "off",
             {
                 "allow"          : [],
                 "allowAfterThis" : false,
