@@ -688,7 +688,7 @@ module.exports = {
             }
         ],
         "no-continue"                  : "off",
-        "no-inline-comments"           : "error",
+        "no-inline-comments"           : "warn",
         "no-lonely-if"                 : "error",
         "no-mixed-operators"           : [
             "error",
