@@ -3,6 +3,7 @@
 module.exports = {
     "rules": {
         "no-return-await": "off",
+        "require-await"  : "off",
         "comma-dangle"   : [
             "error",
             {

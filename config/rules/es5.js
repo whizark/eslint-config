@@ -6,6 +6,7 @@ module.exports = {
         "class-methods-use-this"     : "off",
         "no-empty-pattern"           : "off",
         "no-return-await"            : "off",
+        "require-await"              : "off",
         "comma-dangle"               : [
             "error",
             {

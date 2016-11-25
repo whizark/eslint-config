@@ -290,6 +290,7 @@ module.exports = {
             "error",
             "always"
         ],
+        "require-await"                : "error",
         "vars-on-top"                  : "error",
         "wrap-iife"                    : [
             "error",
