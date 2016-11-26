@@ -413,12 +413,12 @@ module.exports = {
             "always",
             {
                 "line" : {
-                    "ignorePattern"            : [],
+                    "ignorePattern"            : "",
                     "ignoreInlineComments"     : false,
                     "ignoreConsecutiveComments": true
                 },
                 "block": {
-                    "ignorePattern"            : [],
+                    "ignorePattern"            : "",
                     "ignoreInlineComments"     : true,
                     "ignoreConsecutiveComments": true
                 }
