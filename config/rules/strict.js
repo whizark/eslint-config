@@ -408,6 +408,22 @@ module.exports = {
             }
         ],
         "camelcase"                    : "error",
+        "capitalized-comments"         : [
+            "error",
+            "always",
+            {
+                "line" : {
+                    "ignorePattern"            : [],
+                    "ignoreInlineComments"     : false,
+                    "ignoreConsecutiveComments": true
+                },
+                "block": {
+                    "ignorePattern"            : [],
+                    "ignoreInlineComments"     : true,
+                    "ignoreConsecutiveComments": true
+                }
+            }
+        ],
         "comma-dangle"                 : [
             "error",
             {
