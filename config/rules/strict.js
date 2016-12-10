@@ -535,7 +535,9 @@ module.exports = {
                 },
                 "CallExpression"     : {
                     "arguments": "first"
-                }
+                },
+                "ArrayExpression"    : 1,
+                "ObjectExpression"   : 1
             }
         ],
         "jsx-quotes"                   : [
