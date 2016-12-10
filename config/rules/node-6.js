@@ -2,9 +2,10 @@
 
 module.exports = {
     "rules": {
-        "no-return-await": "off",
-        "require-await"  : "off",
-        "comma-dangle"   : [
+        "no-await-in-loop": "off",
+        "no-return-await" : "off",
+        "require-await"   : "off",
+        "comma-dangle"    : [
             "error",
             {
                 "arrays"   : "always-multiline",

@@ -2,6 +2,7 @@
 
 module.exports = {
     "rules"   : {
+        "no-await-in-loop"             : "error",
         "no-cond-assign"               : [
             "error",
             "except-parens"
