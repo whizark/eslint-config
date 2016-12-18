@@ -1018,6 +1018,17 @@ module.exports = {
                 "ignoreReadBeforeAssign": false
             }
         ],
+        "prefer-destructuring"         : [
+            "error",
+            {
+
+                "array" : true,
+                "object": true
+            },
+            {
+                "enforceForRenamedProperties": true
+            }
+        ],
         "prefer-numeric-literals"      : "error",
         "prefer-rest-params"           : "error",
         "prefer-spread"                : "error",

@@ -43,6 +43,7 @@ module.exports = {
         "object-shorthand"           : "off",
         "prefer-arrow-callback"      : "off",
         "prefer-const"               : "off",
+        "prefer-destructuring"       : "off",
         "prefer-numeric-literals"    : "off",
         "prefer-rest-params"         : "off",
         "prefer-spread"              : "off",
