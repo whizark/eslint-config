@@ -1000,8 +1000,9 @@ module.exports = {
             "error",
             "always",
             {
-                "avoidQuotes"       : true,
-                "ignoreConstructors": false
+                "avoidQuotes"              : true,
+                "ignoreConstructors"       : false,
+                "avoidExplicitReturnArrows": true
             }
         ],
         "prefer-arrow-callback"        : [
