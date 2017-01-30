@@ -1065,6 +1065,11 @@ module.exports = {
             "error",
             "never"
         ],
+        "template-tag-spacing"         : [
+            "error",
+            // "never" or "always"
+            "never"
+        ],
         "yield-star-spacing"           : [
             "error",
             {
