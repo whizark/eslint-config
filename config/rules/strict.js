@@ -1032,6 +1032,12 @@ module.exports = {
             }
         ],
         "prefer-numeric-literals"      : "error",
+        "prefer-promise-reject-errors" : [
+            "warn",
+            {
+                "allowEmptyReject": true
+            }
+        ],
         "prefer-rest-params"           : "error",
         "prefer-spread"                : "error",
         "prefer-template"              : "warn",
