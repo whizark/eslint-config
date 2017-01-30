@@ -354,7 +354,8 @@ module.exports = {
             "error",
             {
                 "functions": true,
-                "classes"  : true
+                "classes"  : true,
+                "variables": true
             }
         ],
         "callback-return"              : [
