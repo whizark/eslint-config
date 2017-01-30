@@ -217,6 +217,7 @@ module.exports = {
                 "detectObjects"     : false
             }
         ],
+        "no-multi-assign"              : "error",
         "no-multi-spaces"              : [
             "error",
             {
