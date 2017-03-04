@@ -973,6 +973,7 @@ module.exports = {
             }
         ],
         "no-class-assign"                 : "error",
+        "no-compare-neg-zero"             : "error",
         "no-confusing-arrow"              : [
             "error",
             {
