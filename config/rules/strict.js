@@ -600,16 +600,17 @@ module.exports = {
         "lines-around-comment"            : [
             "error",
             {
-                "beforeBlockComment": true,
-                "afterBlockComment" : false,
-                "beforeLineComment" : true,
-                "afterLineComment"  : false,
-                "allowBlockStart"   : true,
-                "allowBlockEnd"     : false,
-                "allowObjectStart"  : true,
-                "allowObjectEnd"    : false,
-                "allowArrayStart"   : true,
-                "allowArrayEnd"     : false
+                "beforeBlockComment"        : true,
+                "afterBlockComment"         : false,
+                "beforeLineComment"         : true,
+                "afterLineComment"          : false,
+                "allowBlockStart"           : true,
+                "allowBlockEnd"             : false,
+                "allowObjectStart"          : true,
+                "allowObjectEnd"            : false,
+                "allowArrayStart"           : true,
+                "allowArrayEnd"             : false,
+                "applyDefaultIgnorePatterns": true
             }
         ],
         "lines-around-directive"          : [
