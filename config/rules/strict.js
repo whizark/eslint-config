@@ -238,8 +238,7 @@ module.exports = {
         "no-param-reassign"               : [
             "error",
             {
-                "props"                         : false,
-                "ignorePropertyModificationsFor": []
+                "props": false
             }
         ],
         "no-proto"                        : "error",
