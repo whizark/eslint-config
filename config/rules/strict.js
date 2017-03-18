@@ -268,8 +268,9 @@ module.exports = {
         "no-unused-expressions"           : [
             "error",
             {
-                "allowShortCircuit": false,
-                "allowTernary"     : false
+                "allowShortCircuit"   : false,
+                "allowTernary"        : false,
+                "allowTaggedTemplates": false
             }
         ],
         "no-unused-labels"                : "error",
