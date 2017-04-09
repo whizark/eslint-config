@@ -721,6 +721,7 @@ module.exports = {
                 "int32Hint": false
             }
         ],
+        "no-buffer-constructor"           : "error",
         "no-continue"                     : "off",
         "no-inline-comments"              : "warn",
         "no-lonely-if"                    : "error",
