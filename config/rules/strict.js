@@ -221,7 +221,8 @@ module.exports = {
         "no-multi-spaces"                 : [
             "error",
             {
-                "exceptions": {
+                "ignoreEOLComments": false,
+                "exceptions"       : {
                     "Property"            : true,
                     "VariableDeclarator"  : true,
                     "AssignmentExpression": true,
