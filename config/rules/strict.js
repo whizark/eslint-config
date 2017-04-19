@@ -401,6 +401,13 @@ module.exports = {
             }
         ],
         "no-sync"                         : "warn",
+        "array-bracket-newline"           : [
+            "error",
+            {
+                "multiline": true,
+                "minItems" : 2
+            }
+        ],
         "array-bracket-spacing"           : [
             "error",
             "never",
