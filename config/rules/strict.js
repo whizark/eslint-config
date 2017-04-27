@@ -788,11 +788,13 @@ module.exports = {
             {
                 "ObjectExpression": {
                     "multiline"    : true,
-                    "minProperties": 2
+                    "minProperties": 2,
+                    "consistent"   : true
                 },
                 "ObjectPattern"   : {
                     "multiline"    : true,
-                    "minProperties": 2
+                    "minProperties": 2,
+                    "consistent"   : true
                 }
             }
         ],
