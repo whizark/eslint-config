@@ -623,13 +623,6 @@ module.exports = {
                 "applyDefaultIgnorePatterns": true
             }
         ],
-        "lines-around-directive"          : [
-            "error",
-            {
-                "before": "always",
-                "after" : "always"
-            }
-        ],
         "max-depth"                       : [
             "warn",
             {
@@ -711,11 +704,6 @@ module.exports = {
             }
         ],
         "new-parens"                      : "error",
-        "newline-after-var"               : [
-            "error",
-            "always"
-        ],
-        "newline-before-return"           : "error",
         "newline-per-chained-call"        : [
             "error",
             {
@@ -1037,6 +1025,46 @@ module.exports = {
                 "avoidQuotes"              : true,
                 "ignoreConstructors"       : false,
                 "avoidExplicitReturnArrows": true
+            }
+        ],
+        "padding-line-between-statements" : [
+            "error",
+            {
+                "blankLine": "always",
+                "prev"     : "directive",
+                "next"     : "*"
+            },
+            {
+                "blankLine": "any",
+                "prev"     : "directive",
+                "next"     : "directive"
+            },
+            {
+                "blankLine": "slways",
+                "prev"     : [
+                    "const",
+                    "let",
+                    "var"
+                ],
+                "next"     : "*"
+            },
+            {
+                "blankLine": "any",
+                "prev"     : [
+                    "const",
+                    "let",
+                    "var"
+                ],
+                "next"     : [
+                    "const",
+                    "let",
+                    "var"
+                ]
+            },
+            {
+                "blankLine": "slways",
+                "prev"     : "*",
+                "next"     : "return"
             }
         ],
         "prefer-arrow-callback"           : [
