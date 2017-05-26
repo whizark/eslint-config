@@ -870,6 +870,10 @@ module.exports = {
                 "after" : true
             }
         ],
+        "semi-style"                      : [
+            "error",
+            "last"
+        ],
         "semi"                            : [
             "error",
             "always",
