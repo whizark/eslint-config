@@ -954,6 +954,13 @@ module.exports = {
                 }
             }
         ],
+        "switch-colon-spacing"            : [
+            "error",
+            {
+                "after" : true,
+                "before": false
+            }
+        ],
         "unicode-bom"                     : [
             "error",
             "never"
