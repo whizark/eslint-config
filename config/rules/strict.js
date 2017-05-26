@@ -492,6 +492,7 @@ module.exports = {
             "error",
             "always"
         ],
+        "for-direction"                   : "error",
         "func-call-spacing"               : [
             "error",
             "never"
