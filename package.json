@@ -34,6 +34,6 @@
         "eslint": "https://github.com/eslint/eslint.git#master"
     },
     "peerDependencies": {
-        "eslint": "~4.0.0-alpha.2"
+        "eslint": "~4.0.0-beta.0"
     }
 }
