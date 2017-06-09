@@ -31,7 +31,7 @@
         "test": "node test/index.js"
     },
     "devDependencies" : {
-        "eslint": "https://github.com/eslint/eslint.git#master"
+        "eslint": "git+https://github.com/eslint/eslint.git#master"
     },
     "peerDependencies": {
         "eslint": "~4.0.0-rc.0"
