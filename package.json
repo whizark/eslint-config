@@ -1,6 +1,6 @@
 {
     "name"            : "@whizark/eslint-config",
-    "version"         : "0.47.0",
+    "version"         : "0.48.0",
     "description"     : "ESLint sharable configuration files",
     "keywords"        : [
         "eslint",
