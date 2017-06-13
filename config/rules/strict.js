@@ -1044,7 +1044,7 @@ module.exports = {
                 "next"     : "directive"
             },
             {
-                "blankLine": "slways",
+                "blankLine": "always",
                 "prev"     : [
                     "const",
                     "let",
@@ -1066,7 +1066,7 @@ module.exports = {
                 ]
             },
             {
-                "blankLine": "slways",
+                "blankLine": "always",
                 "prev"     : "*",
                 "next"     : "return"
             }
