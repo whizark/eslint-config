@@ -2,7 +2,7 @@
 
 module.exports = {
     "parserOptions": {
-        "ecmaVersion": 7
+        "ecmaVersion": 2016
     },
     "env"          : {
         "es6": true
