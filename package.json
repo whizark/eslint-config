@@ -1,39 +1,42 @@
 {
-    "name"            : "@whizark/eslint-config",
-    "version"         : "0.51.0",
-    "description"     : "ESLint sharable configuration files",
-    "keywords"        : [
+    "name"                : "@whizark/eslint-config",
+    "version"             : "0.51.0",
+    "description"         : "ESLint sharable configuration files",
+    "keywords"            : [
         "eslint",
         "eslint-config",
         "javascript",
         "ecmascript",
         "lint"
     ],
-    "homepage"        : "https://github.com/whizark/eslint-config",
-    "bugs"            : {
+    "homepage"            : "https://github.com/whizark/eslint-config",
+    "bugs"                : {
         "url": "https://github.com/whizark/eslint-config/issues"
     },
-    "license"         : "MIT",
-    "author"          : {
+    "license"             : "MIT",
+    "author"              : {
         "name": "Whizark",
         "url" : "http://whizark.com"
     },
-    "files"           : [
+    "files"               : [
         "index.js",
         "config"
     ],
-    "main"            : "./index.js",
-    "repository"      : {
+    "main"                : "./index.js",
+    "repository"          : {
         "type": "git",
         "url" : "https://github.com/whizark/eslint-config.git"
     },
-    "scripts"         : {
+    "scripts"             : {
         "test": "node test/index.js"
     },
-    "devDependencies" : {
+    "devDependencies"     : {
         "eslint": "git+https://github.com/eslint/eslint.git#master"
     },
-    "peerDependencies": {
+    "peerDependencies"    : {
         "eslint": "~4.1.0"
+    },
+    "optionalDependencies": {
+        "eslint-plugin-react": "~7.1.0"
     }
 }
