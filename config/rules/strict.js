@@ -32,10 +32,11 @@ module.exports = {
             "warn",
             "all",
             {
-                "conditionalAssign"      : false,
-                "returnAssign"           : false,
-                "nestedBinaryExpressions": false,
-                "ignoreJSX"              : "none"
+                "conditionalAssign"          : false,
+                "returnAssign"               : false,
+                "nestedBinaryExpressions"    : false,
+                "ignoreJSX"                  : "none",
+                "enforceForArrowConditionals": true
             }
         ],
         "no-extra-semi"                   : "error",
