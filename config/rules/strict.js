@@ -754,7 +754,8 @@ module.exports = {
         "no-trailing-spaces"              : [
             "error",
             {
-                "skipBlankLines": false
+                "skipBlankLines": false,
+                "ignoreComments": false
             }
         ],
         "no-underscore-dangle"            : [
