@@ -494,6 +494,12 @@ module.exports = {
             "always"
         ],
         "for-direction"                   : "error",
+        "getter-return"                   : [
+            "error",
+            {
+                "allowImplicit": true
+            }
+        ],
         "func-call-spacing"               : [
             "error",
             "never"
