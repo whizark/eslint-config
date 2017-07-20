@@ -688,7 +688,7 @@ module.exports = {
         ],
         "multiline-ternary"               : [
             "off",
-            "never"
+            "always-multiline"
         ],
         "new-cap"                         : [
             "error",
