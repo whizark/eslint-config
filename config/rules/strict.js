@@ -401,7 +401,12 @@ module.exports = {
                 "patterns": []
             }
         ],
-        "no-sync"                         : "warn",
+        "no-sync"                         : [
+            "warn",
+            {
+                "allowAtRootLevel": false
+            }
+        ],
         "array-bracket-newline"           : [
             "error",
             {
