@@ -572,6 +572,7 @@ module.exports = {
                 },
                 "ArrayExpression"       : 1,
                 "ObjectExpression"      : 1,
+                "ImportDeclaration"     : 1,
                 "flatTernaryExpressions": false
             }
         ],
