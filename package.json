@@ -37,6 +37,6 @@
         "eslint": "~4.5.0"
     },
     "optionalDependencies": {
-        "eslint-plugin-react": "~7.2.0"
+        "eslint-plugin-react": "~7.3.0"
     }
 }
