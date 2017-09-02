@@ -997,8 +997,20 @@ module.exports = {
         "generator-star-spacing"          : [
             "error",
             {
-                "before": true,
-                "after" : false
+                "before"   : true,
+                "after"    : false,
+                "named"    : {
+                    "before": true,
+                    "after" : false
+                },
+                "anonymous": {
+                    "before": true,
+                    "after" : false
+                },
+                "method"   : {
+                    "before": true,
+                    "after" : false
+                }
             }
         ],
         "no-class-assign"                 : "error",
