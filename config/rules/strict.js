@@ -527,6 +527,10 @@ module.exports = {
                 "allowArrowFunctions": true
             }
         ],
+        "function-paren-newline"          : [
+            "error",
+            "multiline"
+        ],
         "id-blacklist"                    : [
             "off"
         ],
