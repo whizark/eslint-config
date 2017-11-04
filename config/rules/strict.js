@@ -646,6 +646,14 @@ module.exports = {
                 "applyDefaultIgnorePatterns": true
             }
         ],
+        "lines-between-class-members"     : [
+            "error",
+            "always",
+            {
+                "exceptAfterSingleLine": false
+
+            }
+        ],
         "max-depth"                       : [
             "warn",
             {
