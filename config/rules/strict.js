@@ -695,12 +695,6 @@ module.exports = {
                 "max": 3
             }
         ],
-        "max-statements-per-line"         : [
-            "error",
-            {
-                "max": 1
-            }
-        ],
         "max-statements"                  : [
             "off",
             {
@@ -708,6 +702,12 @@ module.exports = {
             },
             {
                 "ignoreTopLevelFunctions": true
+            }
+        ],
+        "max-statements-per-line"         : [
+            "error",
+            {
+                "max": 1
             }
         ],
         "multiline-ternary"               : [
