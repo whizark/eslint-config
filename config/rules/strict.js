@@ -639,6 +639,8 @@ module.exports = {
                 "afterLineComment"          : false,
                 "allowBlockStart"           : true,
                 "allowBlockEnd"             : false,
+                "allowClassStart"           : false,
+                "allowClassEnd"             : true,
                 "allowObjectStart"          : true,
                 "allowObjectEnd"            : false,
                 "allowArrayStart"           : true,
