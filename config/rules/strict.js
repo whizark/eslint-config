@@ -710,6 +710,10 @@ module.exports = {
                 "max": 1
             }
         ],
+        "multiline-comment-style"         : [
+            "error",
+            "separate-lines"
+        ],
         "multiline-ternary"               : [
             "off",
             "always-multiline"
