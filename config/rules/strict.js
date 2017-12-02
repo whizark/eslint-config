@@ -556,6 +556,10 @@ module.exports = {
                 "onlyDeclarations": false
             }
         ],
+        "implicit-arrow-linebreak"        : [
+            "error",
+            "beside"
+        ],
         "indent"                          : [
             "error",
             4,
