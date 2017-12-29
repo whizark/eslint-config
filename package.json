@@ -34,7 +34,7 @@
         "eslint": "git+https://github.com/eslint/eslint.git#master"
     },
     "peerDependencies"    : {
-        "eslint": "~4.12.1"
+        "eslint": "~4.14.0"
     },
     "optionalDependencies": {
         "eslint-plugin-react": "~7.5.1"
