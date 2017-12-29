@@ -856,9 +856,10 @@ module.exports = {
         "one-var"                         : [
             "error",
             {
-                "var"  : "never",
-                "let"  : "never",
-                "const": "never"
+                "var"             : "never",
+                "let"             : "never",
+                "const"           : "never",
+                "separateRequires": true
             }
         ],
         "operator-assignment"             : [
