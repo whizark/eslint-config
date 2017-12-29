@@ -109,7 +109,12 @@ module.exports = {
                 "setWithoutGet": true
             }
         ],
-        "array-callback-return"           : "error",
+        "array-callback-return"           : [
+            "error",
+            {
+                "allowImplicit": false
+            }
+        ],
         "block-scoped-var"                : "error",
         "class-methods-use-this"          : [
             "warn",
