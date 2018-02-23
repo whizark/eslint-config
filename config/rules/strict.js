@@ -847,7 +847,7 @@ module.exports = {
         "object-property-newline"         : [
             "warn",
             {
-                "allowMultiplePropertiesPerLine": false
+                "allowAllPropertiesOnSameLine": false
             }
         ],
         "one-var-declaration-per-line"    : [
