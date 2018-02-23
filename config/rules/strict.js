@@ -825,13 +825,23 @@ module.exports = {
         "object-curly-newline"            : [
             "warn",
             {
-                "ObjectExpression": {
+                "ObjectExpression" : {
                     "multiline"    : true,
                     "minProperties": 2,
                     "consistent"   : true
                 },
-                "ObjectPattern"   : {
+                "ObjectPattern"    : {
                     "multiline"    : true,
+                    "minProperties": 2,
+                    "consistent"   : true
+                },
+                "ImportDeclaration": {
+                    "multiline"    : false,
+                    "minProperties": 2,
+                    "consistent"   : true
+                },
+                "ExportDeclaration": {
+                    "multiline"    : false,
                     "minProperties": 2,
                     "consistent"   : true
                 }
