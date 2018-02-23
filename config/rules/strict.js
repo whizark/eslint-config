@@ -492,6 +492,7 @@ module.exports = {
                     "ImportDeclaration"      : false,
                     "ObjectExpression"       : false,
                     "ObjectPattern"          : false,
+                    "NewExpression"          : false,
                     "VariableDeclaration"    : false
                 }
             }
