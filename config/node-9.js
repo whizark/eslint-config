@@ -7,6 +7,6 @@ module.exports = {
         "./version/es2017.js",
         "./module/node.js",
         "./rules/strict.js",
-        "./rules/node-8.js"
+        "./rules/node-9.js"
     ]
 };
