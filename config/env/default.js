@@ -3,13 +3,12 @@
 module.exports = {
     "extends"      : [],
     "parserOptions": {
-        "ecmaVersion"  : 5,
-        "sourceType"   : "script",
+        "ecmaVersion" : 5,
+        "sourceType"  : "script",
         "ecmaFeatures": {
-            "globalReturn"                : false,
-            "impliedStrict"               : false,
-            "jsx"                         : false,
-            "experimentalObjectRestSpread": false
+            "globalReturn" : false,
+            "impliedStrict": false,
+            "jsx"          : false
         }
     },
     "parser"       : "espree",
