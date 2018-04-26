@@ -37,8 +37,8 @@
         "eslint": "~5.0.0-alpha.0"
     },
     "optionalDependencies": {
-        "babel-eslint"          : "~8.2.2",
-        "eslint-plugin-flowtype": "~2.46.1",
+        "babel-eslint"          : "~8.2.3",
+        "eslint-plugin-flowtype": "~2.46.3",
         "eslint-plugin-react"   : "~7.7.0"
     }
 }
