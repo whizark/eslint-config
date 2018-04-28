@@ -34,7 +34,7 @@
         "eslint": "git+https://github.com/eslint/eslint.git#master"
     },
     "peerDependencies"    : {
-        "eslint": "~5.0.0-alpha.1"
+        "eslint": "~5.0.0-alpha.2"
     },
     "optionalDependencies": {
         "babel-eslint"          : "~8.2.3",
