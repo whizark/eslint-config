@@ -667,7 +667,7 @@ module.exports = {
 
             }
         ],
-        "max-classes-per-file"                       : [
+        "max-classes-per-file"            : [
             "error",
             1
         ],
@@ -1180,6 +1180,7 @@ module.exports = {
             }
         ],
         "prefer-numeric-literals"         : "error",
+        "prefer-object-spread"            : "error",
         "prefer-promise-reject-errors"    : [
             "warn",
             {

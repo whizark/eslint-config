@@ -2,10 +2,10 @@
 
 module.exports = {
     "rules": {
-        "no-await-in-loop": "off",
-        "no-return-await" : "off",
-        "require-await"   : "off",
-        "comma-dangle"    : [
+        "no-await-in-loop"    : "off",
+        "no-return-await"     : "off",
+        "require-await"       : "off",
+        "comma-dangle"        : [
             "error",
             {
                 "arrays"   : "always-multiline",
@@ -14,6 +14,7 @@ module.exports = {
                 "exports"  : "always-multiline",
                 "functions": "never"
             }
-        ]
+        ],
+        "prefer-object-spread": "off"
     }
 };
