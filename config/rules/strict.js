@@ -667,6 +667,10 @@ module.exports = {
 
             }
         ],
+        "max-classes-per-file"                       : [
+            "error",
+            1
+        ],
         "max-depth"                       : [
             "warn",
             {
