@@ -455,7 +455,8 @@ module.exports = {
         "camelcase"                       : [
             "error",
             {
-                "properties": "always"
+                "properties"         : "always",
+                "ignoreDestructuring": false
             }
         ],
         "capitalized-comments"            : [
