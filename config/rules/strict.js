@@ -82,6 +82,7 @@ module.exports = {
                 "requireReturn"           : true,
                 "requireParamDescription" : true,
                 "requireReturnDescription": true,
+                "requireParamType"        : true,
                 "matchDescription"        : "^[A-Z][\\s\\S]*[.]$",
                 "requireReturnType"       : true,
                 "preferType"              : {
