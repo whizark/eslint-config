@@ -452,7 +452,12 @@ module.exports = {
                 "allowSingleLine": false
             }
         ],
-        "camelcase"                       : "error",
+        "camelcase"                       : [
+            "error",
+            {
+                "properties": "always"
+            }
+        ],
         "capitalized-comments"            : [
             "error",
             "always",
