@@ -542,6 +542,7 @@ module.exports = {
             "error",
             "always",
             {
+                "considerPropertyDescriptor"  : true,
                 "includeCommonJSModuleExports": true
             }
         ],
