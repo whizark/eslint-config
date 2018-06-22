@@ -115,6 +115,13 @@ module.exports = {
                 "allowImplicit": false
             }
         ],
+        "array-element-newline"           : [
+            "error",
+            {
+                "multiline": true,
+                "minItems" : 2
+            }
+        ],
         "block-scoped-var"                : "error",
         "class-methods-use-this"          : [
             "warn",
