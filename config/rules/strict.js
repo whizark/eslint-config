@@ -715,6 +715,15 @@ module.exports = {
                 "skipComments"  : true
             }
         ],
+        "max-lines-per-function"          : [
+            "warn",
+            {
+                "max"           : 50,
+                "skipBlankLines": true,
+                "skipComments"  : true,
+                "IIFEs"         : true
+            }
+        ],
         "max-nested-callbacks"            : [
             "warn",
             {
