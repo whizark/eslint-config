@@ -321,6 +321,7 @@ module.exports = {
             "error",
             "always"
         ],
+        "require-atomic-update"           : "error",
         "require-await"                   : "error",
         "vars-on-top"                     : "error",
         "wrap-iife"                       : [
