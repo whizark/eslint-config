@@ -2,6 +2,7 @@
 
 module.exports = {
     "rules"   : {
+        "no-async-promise-executor"       : "error",
         "no-await-in-loop"                : "error",
         "no-cond-assign"                  : [
             "error",

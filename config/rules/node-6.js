@@ -2,11 +2,12 @@
 
 module.exports = {
     "rules": {
-        "no-await-in-loop"     : "off",
-        "no-return-await"      : "off",
-        "require-atomic-update": "off",
-        "require-await"        : "off",
-        "comma-dangle"         : [
+        "no-async-promise-executor": "off",
+        "no-await-in-loop"         : "off",
+        "no-return-await"          : "off",
+        "require-atomic-update"    : "off",
+        "require-await"            : "off",
+        "comma-dangle"             : [
             "error",
             {
                 "arrays"   : "always-multiline",
@@ -16,6 +17,6 @@ module.exports = {
                 "functions": "never"
             }
         ],
-        "prefer-object-spread" : "off"
+        "prefer-object-spread"     : "off"
     }
 };
