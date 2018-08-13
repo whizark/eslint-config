@@ -118,7 +118,7 @@ module.exports = {
             }
         ],
         "array-element-newline"           : [
-            "error",
+            "warn",
             {
                 "multiline": true,
                 "minItems" : 2
@@ -427,7 +427,7 @@ module.exports = {
             }
         ],
         "array-bracket-newline"           : [
-            "error",
+            "warn",
             {
                 "multiline": true,
                 "minItems" : 2
