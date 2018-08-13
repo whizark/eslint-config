@@ -955,6 +955,7 @@ module.exports = {
                 }
             }
         ],
+        "require-unicode-regexp"          : "error",
         "semi-spacing"                    : [
             "error",
             {

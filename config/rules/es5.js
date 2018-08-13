@@ -26,6 +26,7 @@ module.exports = {
         ],
         "computed-property-spacing"    : "off",
         "no-buffer-constructor"        : "off",
+        "require-unicode-regexp"       : 'off',
         "arrow-body-style"             : "off",
         "arrow-parens"                 : "off",
         "arrow-spacing"                : "off",
