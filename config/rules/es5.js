@@ -7,6 +7,7 @@ module.exports = {
         "class-methods-use-this"       : "off",
         "no-empty-pattern"             : "off",
         "no-return-await"              : "off",
+        "require-atomic-update"        : "off",
         "require-await"                : "off",
         "no-misleading-character-class": "off",
         "no-sync"                      : "off",
