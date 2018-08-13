@@ -1191,7 +1191,7 @@ module.exports = {
             }
         ],
         "prefer-destructuring"            : [
-            "error",
+            "warn",
             {
                 "VariableDeclarator"  : {
                     "array" : true,
