@@ -237,6 +237,7 @@ module.exports = {
                 "detectObjects"     : false
             }
         ],
+        "no-misleading-character-class"   : "error",
         "no-multi-assign"                 : "error",
         "no-multi-spaces"                 : [
             "error",
