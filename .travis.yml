@@ -36,7 +36,7 @@ deploy:
     - provider: npm
       email: npm@whizark.com
       api_key:
-          secure: Q91pVU1lw/JP4B5oR95aEUBsy+CqC0pmpVW5cPQFdIuq8f2XhCIuE98ru6BPaItCSuiEPQpQgjlVFKWs5ckfLR30plPWKlrdZmRNKWyQDoEkLI3DHbeSISa692WFbRZJ8972kSJIm29Ee1wzlRRSjvY+U2hGdsonmDastGokOvHKsYyqzvx/kj2nMZuYTQ8r/Zesj53IsIcL/MaOohXl/mx4wkgwTh5LdGqM038CNaCA1GiljDrHpeFMfSnklEZVDXBljW9U8MGMWYa4ssDoYIGmoiP2c+uTkQGx+rLJAQTejhvUm1+tgqbXK+BZ74hr80ibmLYYdCn1SDqoHUQRLVDPjxtFgoIVrRVow6t2dVKXQ0x+SOmxbmhOSq5Ks0UpNQMkwK9FofX0EmFuOxJt/KSs8Su/duo6oe2DQtdaFbbjcRjX6w3HngCV/yNdQ5PFBmX/rInwDVc5NoSeDDgdbNCsdpaRgufi83UgJ/S/fMFk/DllPUPi9mEz9kcuUuJYPKxGAtdlpm55Fcq3HezsCg3s4QhlnEZJAms0v4u64bkmes8L0WiOMMTYen8EVPji3olXpao02k2fw1E2Rv0W8a9NCzBeD+xnlPiT9ocF7TAg6esH02nV1za8PqMRluasDjVLO7H/ixp5ec1/Aod8iDj+zdNuKLNBSRBt4QT3Fxg=
+          secure: a2UpGyLmLAtJOvnz26k314zXVyyYPe2lQxW2sy8eGTQ8pT9zkdUEI1+JfiJyZ0IQqn3I4LJXkPasbOXjWHBFODxa5MkjNDLGBua7kmzJSNIxamAYkVaVVNjbJFmoK5LahD7rSkUOJ6xn+RmLBwLZ+gIthd6JlY4k8f2LO1cGuitEiQ8kj6kXdIQsXfBEj68FBN82wr6F4fBQbHiBoxIUOq+jLy/ijfaLSjB8lg/6Wl1yu9LjvCS6X7arNQ6/bojZx6I+s+paFu0rmyY82J6YjKXz0CYc8taLNmdz9aWHVt+X9HBtpjM+7ae2YUj/SCEVOYWsmqMPM6XCNdmSdy5/X10c5KtE/q+Fcoy9txcp9lrCJMJ5VW/MoqfguLDV5RIusFC/tsQoMLtrEE4dJK0+XK9cNSkNlpvMmiH4x1KHYCiGWpiLcckHEcuca+dlKKT13eae8PTcGM8A1NsfHtDt5napcfq/v6scHQf9NXHjRxohDLuhMyP2nDypcDX3Ar9cmSM8sHxt74qo+/u87JXm88EGXQHRvIZiyQhT0bWw1hCokxMO914vb4rl0bDKFrTJWn7A8kaTOwfmdeh3F+a5Q+AcpF538yUDrNkhoBq359qMbwc3wLjfTqy2FkurZcmK7YLS+wmk7vgHuXZSZV3XMSHGpS4gCF+1bpFWjbC3OMU=
       on:
           node: 8
           repo: whizark/eslint-config
