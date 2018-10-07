@@ -458,7 +458,8 @@ module.exports = {
             "error",
             {
                 "properties"         : "always",
-                "ignoreDestructuring": false
+                "ignoreDestructuring": false,
+                "allow"              : []
             }
         ],
         "capitalized-comments"            : [
