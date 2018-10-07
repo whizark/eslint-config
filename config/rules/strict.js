@@ -538,7 +538,10 @@ module.exports = {
         ],
         "func-names"                      : [
             "error",
-            "as-needed"
+            "as-needed",
+            {
+                "generators": "as-needed"
+            }
         ],
         "func-name-matching"              : [
             "error",
