@@ -831,7 +831,12 @@ module.exports = {
         "no-restricted-syntax"            : [
             "error"
         ],
-        "no-tabs"                         : "error",
+        "no-tabs"                         : [
+            "error",
+            {
+                "allowIndentationTabs": false
+            }
+        ],
         "no-ternary"                      : "off",
         "no-trailing-spaces"              : [
             "error",
