@@ -74,30 +74,6 @@ module.exports = {
         "no-unsafe-finally"               : "error",
         "no-unsafe-negation"              : "error",
         "use-isnan"                       : "error",
-        "valid-jsdoc"                     : [
-            "error",
-            {
-                "prefer"                  : {
-                    "return": "returns"
-                },
-                "requireReturn"           : true,
-                "requireParamDescription" : true,
-                "requireReturnDescription": true,
-                "requireParamType"        : true,
-                "matchDescription"        : "^[A-Z][\\s\\S]*[.]$",
-                "requireReturnType"       : true,
-                "preferType"              : {
-                    "bool"    : "boolean",
-                    "Bool"    : "boolean",
-                    "Boolean" : "boolean",
-                    "Number"  : "number",
-                    "String"  : "string",
-                    "array"   : "Array",
-                    "object"  : "Object",
-                    "Function": "function"
-                }
-            }
-        ],
         "valid-typeof"                    : [
             "error",
             {
@@ -951,18 +927,6 @@ module.exports = {
             {
                 "avoidEscape"          : true,
                 "allowTemplateLiterals": true
-            }
-        ],
-        "require-jsdoc"                   : [
-            "warn",
-            {
-                "require": {
-                    "FunctionDeclaration"    : true,
-                    "MethodDefinition"       : true,
-                    "ClassDeclaration"       : true,
-                    "ArrowFunctionExpression": true,
-                    "FunctionExpression"     : true
-                }
             }
         ],
         "require-unicode-regexp"          : "error",
