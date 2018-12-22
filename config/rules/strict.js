@@ -579,8 +579,9 @@ module.exports = {
             "off",
             "^[a-z]+([A-Z][a-z]+)*$",
             {
-                "properties"      : false,
-                "onlyDeclarations": false
+                "properties"         : false,
+                "onlyDeclarations"   : false,
+                "ignoreDestructuring": false
             }
         ],
         "implicit-arrow-linebreak"        : [
