@@ -1201,6 +1201,7 @@ module.exports = {
             "warn",
             {
                 "ignoreCase"           : false,
+                "ignoreDeclarationSort": false,
                 "ignoreMemberSort"     : false,
                 "memberSyntaxSortOrder": [
                     "none",
