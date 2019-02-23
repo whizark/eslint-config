@@ -571,9 +571,9 @@ module.exports = {
             {
                 "SwitchCase"            : 1,
                 "VariableDeclarator"    : {
-                    "var"  : 1,
-                    "let"  : 1,
-                    "const": 1
+                    "var"  : "first",
+                    "let"  : "first",
+                    "const": "first"
                 },
                 "outerIIFEBody"         : 1,
                 "MemberExpression"      : 1,
