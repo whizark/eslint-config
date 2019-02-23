@@ -911,6 +911,9 @@ module.exports = {
                 "blocks"  : "never",
                 "switches": "never",
                 "classes" : "never"
+            },
+            {
+                "allowSingleLineBlocks": false
             }
         ],
         "quote-props"                     : [
