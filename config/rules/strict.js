@@ -538,7 +538,7 @@ module.exports = {
         ],
         "function-paren-newline"          : [
             "error",
-            "multiline"
+            "multiline-arguments"
         ],
         "id-blacklist"                    : [
             "off"
