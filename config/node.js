@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports = require('./node-11');
+module.exports = require('./node-12');

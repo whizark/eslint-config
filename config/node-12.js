@@ -4,9 +4,9 @@ module.exports = {
     "extends": [
         "./env/default.js",
         "./env/node.js",
-        "./version/es2015.js",
+        "./version/es2019.js",
         "./module/node.js",
         "./rules/strict.js",
-        "./rules/node-6.js"
+        "./rules/node-12.js"
     ]
 };
