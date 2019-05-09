@@ -1184,7 +1184,7 @@ module.exports = {
                 "enforceForRenamedProperties": true
             }
         ],
-        "prefer-named-capture-patern"     : "warn",
+        "prefer-named-capture-pattern"    : "warn",
         "prefer-numeric-literals"         : "error",
         "prefer-object-spread"            : "error",
         "prefer-promise-reject-errors"    : [
