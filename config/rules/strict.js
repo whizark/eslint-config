@@ -1181,7 +1181,7 @@ module.exports = {
                 }
             },
             {
-                "enforceForRenamedProperties": true
+                "enforceForRenamedProperties": false
             }
         ],
         "prefer-named-capture-pattern"    : "warn",
