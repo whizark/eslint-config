@@ -6,5 +6,17 @@ module.exports = {
     ],
     "plugins": [
         "react"
-    ]
+    ],
+    "rules"  : {
+        "react/jsx-filename-extension": [
+            "error",
+            {
+                "extensions": [
+                    ".jsx",
+                    ".js",
+                    ".mjs"
+                ]
+            }
+        ]
+    }
 };
