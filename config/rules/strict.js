@@ -960,7 +960,8 @@ module.exports = {
             "asc",
             {
                 "caseSensitive": true,
-                "natural"      : false
+                "natural"      : false,
+                "minKeys"      : 2
             }
         ],
         "sort-vars"                       : [
