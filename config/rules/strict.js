@@ -797,7 +797,7 @@ module.exports = {
                 "maxBOF": 0
             }
         ],
-        "no-negated-condition"            : "error",
+        "no-negated-condition"            : "warn",
         "no-nested-ternary"               : "error",
         "no-new-object"                   : "error",
         "no-plusplus"                     : [
