@@ -763,7 +763,10 @@ module.exports = {
                 ]
             }
         ],
-        "new-parens"                      : "error",
+        "new-parens"                      : [
+            "error",
+            "always"
+        ],
         "newline-per-chained-call"        : [
             "error",
             {
