@@ -955,7 +955,7 @@ module.exports = {
                 "omitLastInOneLineBlock": false
             }
         ],
-        "sort-keyw"                       : [
+        "sort-keys"                       : [
             "off",
             "asc",
             {
