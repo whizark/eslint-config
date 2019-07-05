@@ -39,6 +39,6 @@
     "optionalDependencies": {
         "babel-eslint": "~10.0.1",
         "eslint-plugin-flowtype": "~3.11.0",
-        "eslint-plugin-react": "~7.13.0"
+        "eslint-plugin-react": "~7.14.0"
     }
 }
