@@ -84,7 +84,8 @@ module.exports = {
         "use-isnan"                       : [
             "error",
             {
-                "enforceForSwitchCase": true
+                "enforceForSwitchCase": true,
+                "enforceForIndexOf"   : true
             }
         ],
         "valid-typeof"                    : [
