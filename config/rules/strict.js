@@ -1213,6 +1213,7 @@ module.exports = {
                 "enforceForRenamedProperties": false
             }
         ],
+        "prefer-exponentiation-operator"  : "error",
         "prefer-named-capture-group"      : "warn",
         "prefer-numeric-literals"         : "error",
         "prefer-object-spread"            : "error",
