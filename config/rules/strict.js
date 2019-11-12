@@ -74,7 +74,12 @@ module.exports = {
         "no-unreachable"                  : "error",
         "no-unsafe-finally"               : "error",
         "no-unsafe-negation"              : "error",
-        "use-isnan"                       : "error",
+        "use-isnan"                       : [
+            "error",
+            {
+                "enforceForSwitchCase": true
+            }
+        ],
         "valid-typeof"                    : [
             "error",
             {
