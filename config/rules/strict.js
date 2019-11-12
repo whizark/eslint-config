@@ -853,10 +853,11 @@ module.exports = {
         "no-underscore-dangle"            : [
             "off",
             {
-                "allow"               : [],
-                "allowAfterThis"      : false,
-                "allowAfterSuper"     : false,
-                "enforceInMethodNames": false
+                "allow"                    : [],
+                "allowAfterThis"           : false,
+                "allowAfterSuper"          : false,
+                "allowAfterThisConstructor": false,
+                "enforceInMethodNames"     : false
             }
         ],
         "no-unneeded-ternary"             : [
