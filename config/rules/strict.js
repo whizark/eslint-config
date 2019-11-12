@@ -130,6 +130,7 @@ module.exports = {
                 "commentPattern": "^no default$"
             }
         ],
+        "default-param-last"              : "error",
         "dot-location"                    : [
             "error",
             "property"
