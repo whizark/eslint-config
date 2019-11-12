@@ -458,6 +458,7 @@ module.exports = {
             {
                 "properties"         : "always",
                 "ignoreDestructuring": false,
+                "ignoreImports"      : false,
                 "allow"              : []
             }
         ],
