@@ -6,6 +6,7 @@ module.exports = {
         "no-template-curly-in-string"  : "off",
         "class-methods-use-this"       : "off",
         "no-empty-pattern"             : "off",
+        "no-import-assign"             : "off",
         "no-return-await"              : "off",
         "require-atomic-updates"       : "off",
         "require-await"                : "off",

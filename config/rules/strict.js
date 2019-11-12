@@ -201,6 +201,7 @@ module.exports = {
         ],
         "no-implicit-globals"             : "error",
         "no-implied-eval"                 : "error",
+        "no-import-assign"                 : "error",
         "no-invalid-this"                 : "error",
         "no-iterator"                     : "error",
         "no-labels"                       : "error",
