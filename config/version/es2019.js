@@ -5,6 +5,7 @@ module.exports = {
         "ecmaVersion": 2019
     },
     "env"          : {
-        "es6": true
+        "es6"   : true,
+        "es2017": true
     }
 };
