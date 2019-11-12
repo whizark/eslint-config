@@ -536,6 +536,10 @@ module.exports = {
                 "allowArrowFunctions": true
             }
         ],
+        "function-call-argument-newline"  : [
+            "error",
+            "consistent"
+        ],
         "function-paren-newline"          : [
             "error",
             "multiline-arguments"
