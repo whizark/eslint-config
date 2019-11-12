@@ -84,8 +84,9 @@ module.exports = {
         "accessor-pairs"                  : [
             "error",
             {
-                "getWithoutSet": false,
-                "setWithoutGet": true
+                "getWithoutSet"         : false,
+                "setWithoutGet"         : true,
+                "enforceForClassMembers": true
             }
         ],
         "array-callback-return"           : [
