@@ -283,6 +283,7 @@ module.exports = {
         ],
         "no-self-compare"                 : "error",
         "no-sequences"                    : "error",
+        "no-setter-return"                : "error",
         "no-throw-literal"                : "error",
         "no-unmodified-loop-condition"    : "warn",
         "no-unused-expressions"           : [
