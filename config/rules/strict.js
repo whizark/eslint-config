@@ -216,7 +216,12 @@ module.exports = {
         "no-implicit-globals"             : "error",
         "no-implied-eval"                 : "error",
         "no-import-assign"                : "error",
-        "no-invalid-this"                 : "error",
+        "no-invalid-this"                 : [
+            "error",
+            {
+                "capIsConstructor": true
+            }
+        ],
         "no-iterator"                     : "error",
         "no-labels"                       : "error",
         "no-lone-blocks"                  : "error",
