@@ -2,6 +2,6 @@
 
 module.exports = {
     "rules": {
-        "prefer-name-capture-patern"      : "warn",
+        "prefer-named-capture-group": "off"
     }
 };
