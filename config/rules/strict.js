@@ -1154,6 +1154,7 @@ module.exports = {
             }
         ],
         "no-this-before-super"            : "error",
+        "no-useless-backreference"        : "error",
         "no-useless-computed-key"         : [
             "error",
             {
