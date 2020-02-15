@@ -362,6 +362,14 @@ module.exports = {
         ],
         "no-delete-var"                   : "error",
         "no-label-var"                    : "error",
+        "no-restricted-exports"           : [
+            "error",
+            {
+                "restrictedNamedExports": [
+                    "default"
+                ]
+            }
+        ],
         "no-restricted-globals"           : [
             "error"
         ],
