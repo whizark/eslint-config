@@ -1131,7 +1131,12 @@ module.exports = {
             }
         ],
         "no-this-before-super"            : "error",
-        "no-useless-computed-key"         : "error",
+        "no-useless-computed-key"         : [
+            "error",
+            {
+                "enforceForClassMembers": true
+            }
+        ],
         "no-useless-constructor"          : "error",
         "no-useless-rename"               : [
             "error",
