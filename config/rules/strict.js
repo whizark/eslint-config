@@ -112,8 +112,14 @@ module.exports = {
         "array-element-newline"           : [
             "warn",
             {
-                "multiline": true,
-                "minItems" : 2
+                "ArrayExpression": {
+                    "multiline": true,
+                    "minItems" : 2
+                },
+                "ArrayPattern"   : {
+                    "multiline": true,
+                    "minItems" : 2
+                }
             }
         ],
         "block-scoped-var"                : "error",
