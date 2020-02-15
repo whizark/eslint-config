@@ -145,6 +145,7 @@ module.exports = {
                 "commentPattern": "^no default$"
             }
         ],
+        "default-case-last"               : "error",
         "default-param-last"              : "error",
         "dot-location"                    : [
             "error",
