@@ -5,6 +5,8 @@ language: node_js
 node_js:
     - 10
     - 12
+    - 13
+    - 14
 
 matrix:
     fast_finish: true
@@ -36,7 +38,7 @@ deploy:
       api_key:
           secure: a2UpGyLmLAtJOvnz26k314zXVyyYPe2lQxW2sy8eGTQ8pT9zkdUEI1+JfiJyZ0IQqn3I4LJXkPasbOXjWHBFODxa5MkjNDLGBua7kmzJSNIxamAYkVaVVNjbJFmoK5LahD7rSkUOJ6xn+RmLBwLZ+gIthd6JlY4k8f2LO1cGuitEiQ8kj6kXdIQsXfBEj68FBN82wr6F4fBQbHiBoxIUOq+jLy/ijfaLSjB8lg/6Wl1yu9LjvCS6X7arNQ6/bojZx6I+s+paFu0rmyY82J6YjKXz0CYc8taLNmdz9aWHVt+X9HBtpjM+7ae2YUj/SCEVOYWsmqMPM6XCNdmSdy5/X10c5KtE/q+Fcoy9txcp9lrCJMJ5VW/MoqfguLDV5RIusFC/tsQoMLtrEE4dJK0+XK9cNSkNlpvMmiH4x1KHYCiGWpiLcckHEcuca+dlKKT13eae8PTcGM8A1NsfHtDt5napcfq/v6scHQf9NXHjRxohDLuhMyP2nDypcDX3Ar9cmSM8sHxt74qo+/u87JXm88EGXQHRvIZiyQhT0bWw1hCokxMO914vb4rl0bDKFrTJWn7A8kaTOwfmdeh3F+a5Q+AcpF538yUDrNkhoBq359qMbwc3wLjfTqy2FkurZcmK7YLS+wmk7vgHuXZSZV3XMSHGpS4gCF+1bpFWjbC3OMU=
       on:
-          node: 12
+          node: 14
           repo: whizark/eslint-config
           branch: master
           tags: true
