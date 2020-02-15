@@ -1114,6 +1114,7 @@ module.exports = {
         ],
         "no-const-assign"                 : "error",
         "no-dupe-class-members"           : "error",
+        "no-dupe-else-if"                 : "error",
         "no-duplicate-imports"            : [
             "error",
             {
