@@ -34,11 +34,11 @@
         "eslint": "git+https://github.com/eslint/eslint.git#master"
     },
     "peerDependencies": {
-        "eslint": "~7.0.0-alpha.1"
+        "eslint": "7.0.0-alpha.1"
     },
     "optionalDependencies": {
-        "babel-eslint": "~10.0.3",
-        "eslint-plugin-flowtype": "~4.6.0",
-        "eslint-plugin-react": "~7.18.0"
+        "babel-eslint": "10.0.3",
+        "eslint-plugin-flowtype": "4.6.0",
+        "eslint-plugin-react": "7.18.3"
     }
 }
