@@ -214,7 +214,12 @@ module.exports = {
                 "allow"  : []
             }
         ],
-        "no-implicit-globals"             : "error",
+        "no-implicit-globals"             : [
+            "error",
+            {
+                "lexicalBindings": true
+            }
+        ],
         "no-implied-eval"                 : "error",
         "no-import-assign"                : "error",
         "no-invalid-this"                 : [
