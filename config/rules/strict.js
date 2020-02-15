@@ -405,6 +405,10 @@ module.exports = {
             ]
         ],
         "global-require"                  : "error",
+        "grouped-accessor-pairs"          : [
+            "error",
+            "setBeforeGet"
+        ],
         "handle-callback-err"             : [
             "error",
             "err"
