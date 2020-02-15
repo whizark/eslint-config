@@ -610,31 +610,32 @@ module.exports = {
             "error",
             4,
             {
-                "SwitchCase"            : 1,
-                "VariableDeclarator"    : {
+                "SwitchCase"              : 1,
+                "VariableDeclarator"      : {
                     "var"  : "first",
                     "let"  : "first",
                     "const": "first"
                 },
-                "outerIIFEBody"         : 1,
-                "MemberExpression"      : 1,
-                "FunctionDeclaration"   : {
+                "outerIIFEBody"           : 1,
+                "MemberExpression"        : 1,
+                "FunctionDeclaration"     : {
                     "parameters": "first",
                     "body"      : 1
                 },
-                "FunctionExpression"    : {
+                "FunctionExpression"      : {
                     "parameters": "first",
                     "body"      : 1
                 },
-                "CallExpression"        : {
+                "CallExpression"          : {
                     "arguments": "first"
                 },
-                "ArrayExpression"       : 1,
-                "ObjectExpression"      : 1,
-                "ImportDeclaration"     : 1,
-                "flatTernaryExpressions": false,
-                "ignoredNodes"          : [],
-                "ignoreComments"        : false
+                "ArrayExpression"         : 1,
+                "ObjectExpression"        : 1,
+                "ImportDeclaration"       : 1,
+                "flatTernaryExpressions"  : false,
+                "offsetTernaryExpressions": false,
+                "ignoredNodes"            : [],
+                "ignoreComments"          : false
             }
         ],
         "jsx-quotes"                      : [
