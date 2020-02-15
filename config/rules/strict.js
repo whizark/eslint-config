@@ -15,6 +15,7 @@ module.exports = {
                 "checkLoops": true
             }
         ],
+        "no-constructor-return"           : "error",
         "no-control-regex"                : "error",
         "no-debugger"                     : "error",
         "no-dupe-args"                    : "error",
