@@ -39,13 +39,14 @@ module.exports = {
             "warn",
             "all",
             {
-                "conditionalAssign"               : false,
-                "returnAssign"                    : false,
-                "nestedBinaryExpressions"         : false,
-                "ignoreJSX"                       : "none",
-                "enforceForArrowConditionals"     : true,
-                "enforceForSequenceExpressions"   : false,
-                "enforceForNewInMemberExpressions": false
+                "conditionalAssign"                 : false,
+                "returnAssign"                      : false,
+                "nestedBinaryExpressions"           : false,
+                "ignoreJSX"                         : "none",
+                "enforceForArrowConditionals"       : true,
+                "enforceForSequenceExpressions"     : false,
+                "enforceForNewInMemberExpressions"  : false,
+                "enforceForFunctionPrototypeMethods": false
             }
         ],
         "no-extra-semi"                   : "error",
