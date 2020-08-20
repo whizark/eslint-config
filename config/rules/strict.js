@@ -80,6 +80,7 @@ module.exports = {
         "no-template-curly-in-string"     : "warn",
         "no-unexpected-multiline"         : "error",
         "no-unreachable"                  : "error",
+        "no-unreachable-loop"             : "error",
         "no-unsafe-finally"               : "error",
         "no-unsafe-negation"              : [
             "error",
