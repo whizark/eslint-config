@@ -1303,7 +1303,8 @@ module.exports = {
                     "all",
                     "multiple",
                     "single"
-                ]
+                ],
+                "allowSeparatedGroups" : false
             }
         ],
         "symbol-description"              : "error",
