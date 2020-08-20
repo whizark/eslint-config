@@ -282,6 +282,7 @@ module.exports = {
                 "props": false
             }
         ],
+        "no-promise-executor-return"      : "error",
         "no-proto"                        : "error",
         "no-redeclare"                    : [
             "error",
