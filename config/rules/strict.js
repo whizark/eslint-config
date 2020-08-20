@@ -905,7 +905,8 @@ module.exports = {
                 "allowAfterThis"           : false,
                 "allowAfterSuper"          : false,
                 "allowAfterThisConstructor": false,
-                "enforceInMethodNames"     : false
+                "enforceInMethodNames"     : false,
+                "allowFunctionParams"      : true
             }
         ],
         "no-unneeded-ternary"             : [
