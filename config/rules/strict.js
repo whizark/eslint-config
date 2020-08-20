@@ -610,7 +610,7 @@ module.exports = {
             "error",
             "multiline-arguments"
         ],
-        "id-blacklist"                    : [
+        "id-denylist"                     : [
             "off"
         ],
         "id-length"                       : [
