@@ -499,6 +499,7 @@ module.exports = {
                 "properties"         : "always",
                 "ignoreDestructuring": false,
                 "ignoreImports"      : false,
+                "ignoreGlobals"      : false,
                 "allow"              : []
             }
         ],
