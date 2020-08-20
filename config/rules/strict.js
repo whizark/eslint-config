@@ -244,6 +244,7 @@ module.exports = {
         "no-labels"                       : "error",
         "no-lone-blocks"                  : "error",
         "no-loop-func"                    : "error",
+        "no-loss-of-precision"            : "error",
         "no-magic-numbers"                : [
             "warn",
             {
