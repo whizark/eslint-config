@@ -51,7 +51,6 @@ module.exports = {
         "prefer-const"                 : "off",
         "prefer-destructuring"         : "off",
         "prefer-numeric-literals"      : "off",
-        "prefer-promise-reject-errors" : "off",
         "prefer-rest-params"           : "off",
         "prefer-spread"                : "off",
         "prefer-template"              : "off",
